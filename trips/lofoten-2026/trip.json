@@ -78,7 +78,7 @@
       "label": "km loop"
     },
     {
-      "value": "9",
+      "value": "6",
       "label": "Summit hikes",
       "accent": "cool"
     },
@@ -95,24 +95,41 @@
   ],
   "timedAnchors": [
     {
-      "when": "Mon 3 Aug 09:00",
-      "what": "Camper pickup, Kvaløysletta"
+      "at": "2026-08-01T22:50",
+      "what": "Land Tromsø (BRU → Oslo → TOS)",
+      "durationMin": 30
     },
     {
-      "when": "Wed 5 Aug 08:30",
-      "what": "Gryllefjord ferry queue (11:00 sailing)"
+      "at": "2026-08-03T09:00",
+      "what": "Camper pickup, Kvaløysletta",
+      "durationMin": 60
     },
     {
-      "when": "Thu 6 Aug ~09:00",
-      "what": "Whale safari, Andenes (arrive 45–60 min early)"
+      "at": "2026-08-05T08:30",
+      "what": "Gryllefjord ferry queue (11:00 sailing)",
+      "durationMin": 150
     },
     {
-      "when": "Mon 10 Aug ~14:00",
-      "what": "Claim Lofoten Beach Camp pitch (first-come)"
+      "at": "2026-08-06T09:00",
+      "what": "Whale safari, Andenes (arrive 45–60 min early)",
+      "approx": true,
+      "durationMin": 270
     },
     {
-      "when": "Fri 14 Aug 10:00",
-      "what": "Van drop-off"
+      "at": "2026-08-10T14:00",
+      "what": "Claim Lofoten Beach Camp pitch (first-come)",
+      "approx": true,
+      "durationMin": 60
+    },
+    {
+      "at": "2026-08-14T10:00",
+      "what": "Van drop-off, Kvaløysletta",
+      "durationMin": 60
+    },
+    {
+      "at": "2026-08-14T15:00",
+      "what": "Fly home · TOS → CPH → BRU, land 19:50",
+      "durationMin": 290
     }
   ],
   "days": [
@@ -144,7 +161,8 @@
           "time": "Mon 09:00",
           "text": "Collect the camper and roll into Day 1."
         }
-      ]
+      ],
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-305409/Norway/Troms/Troms%C3%B8/Troms%C3%B8"
     },
     {
       "id": "D1",
@@ -176,7 +194,8 @@
           "text": "Settle at the Fjordgård / Mefjord campsite, cast off the pier and fire up the first BBQ of the trip."
         }
       ],
-      "noteHTML": "<b>Book ahead:</b> Camp Mefjord has only ~8 van pitches — reserve online before the trip, don’t rely on walk-in."
+      "noteHTML": "<b>Booked:</b> Camp Mefjord — check-in from 14:00.",
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-304609/Norway/Troms/Senja/Mefjordv%C3%A6r"
     },
     {
       "id": "D2",
@@ -208,7 +227,8 @@
           "text": "A loose afternoon by the water near the quay — sleep close to the ferry for an easy morning."
         }
       ],
-      "hikeRef": "hesten"
+      "hikeRef": "hesten",
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-299731/Norway/Troms/Senja/Gryllefjorden"
     },
     {
       "id": "D3",
@@ -243,7 +263,8 @@
           "text": "Bleik beach and an optional Måtind walk; mackerel off the pier — or take the boat out to Bleiksøya's puffin colony."
         }
       ],
-      "noteHTML": "<b>Fallback:</b> miss the 11:00 and the next sailing is 15:00 — but expect Bleik to be busier by then."
+      "noteHTML": "<b>Fallback:</b> miss the 11:00 and the next sailing is 15:00 — but expect Bleik to be busier by then.",
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-299384/Norway/Nordland/And%C3%B8y/Bleik"
     },
     {
       "id": "D4",
@@ -270,7 +291,8 @@
           "label": "Fish",
           "text": "Find a quiet, legal spot near Sortland for a free night by the fjord — a slower day to let the trip breathe."
         }
-      ]
+      ],
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-285703/Norway/Nordland/Sortland/Sortland"
     },
     {
       "id": "D5",
@@ -303,7 +325,8 @@
           "text": "Settle at Sandsletta Camping; cast from the harbour walls."
         }
       ],
-      "hikeRef": "floya"
+      "hikeRef": "floya",
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-276917/Norway/Nordland/V%C3%A5gan/Svolv%C3%A6r"
     },
     {
       "id": "D6",
@@ -332,7 +355,8 @@
         }
       ],
       "noteHTML": "<b>Optional:</b> an evening round at Lofoten Links on Gimsøy — light enough to tee off late.",
-      "hikeRef": "festvagtinden"
+      "hikeRef": "festvagtinden",
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-276748/Norway/Nordland/V%C3%A5gan/Henningsv%C3%A6r"
     },
     {
       "id": "D7",
@@ -362,7 +386,8 @@
         }
       ],
       "noteHTML": "<b>Camping in nature:</b> vans park in the beach lot (first-come, sometimes restricted) — Uttakleiv's simple self-service pitch over the headland is the backup. Grill on the sand, not the grass.",
-      "hikeRef": "offersoykammen"
+      "hikeRef": "offersoykammen",
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-275720/Norway/Nordland/Vestv%C3%A5g%C3%B8y/Leknes"
     },
     {
       "id": "D8",
@@ -402,7 +427,8 @@
         }
       ],
       "noteHTML": "<b>The spot Lisa flagged:</b> surf · sauna · beach bar on the sand — and a perfect base for tomorrow's Reinebringen.",
-      "hikeRef": "ryten"
+      "hikeRef": "ryten",
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-275998/Norway/Nordland/Flakstad/Ramberg"
     },
     {
       "id": "D9",
@@ -431,7 +457,8 @@
         }
       ],
       "noteHTML": "<b>Suggested stops:</b> <b>Å</b> at the very end of the E10 — turf-roofed rorbuer, ~5 km on — is an easy stroll to fold into today. For more, the <b>Reinefjord ferry</b> (park at Reine, no cars aboard) crosses to Vindstad for the easy ~1 h hike to <b>Bunes beach</b>: a full day-trip on its own, or camp wild on the dunes overnight. Book the ferry ahead in summer.",
-      "hikeRef": "reinebringen"
+      "hikeRef": "reinebringen",
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-272752/Norway/Nordland/Moskenes/Reine"
     },
     {
       "id": "D10",
@@ -457,7 +484,8 @@
           "label": "Fish",
           "text": "Find a scenic, free pitch near Narvik or Bjerkvik for a last quiet night by the water — one final cast."
         }
-      ]
+      ],
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-283156/Norway/Nordland/Narvik/Narvik"
     },
     {
       "id": "D11",
@@ -482,7 +510,8 @@
           "time": "eve",
           "text": "Empty tanks, refuel and repack so the last morning is clean."
         }
-      ]
+      ],
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-305409/Norway/Troms/Troms%C3%B8/Troms%C3%B8"
     },
     {
       "id": "D12",
@@ -514,7 +543,8 @@
           "text": "Fly TOS → Copenhagen → Brussels (SK 4453 / 0597), home 19:50."
         }
       ],
-      "noteHTML": "<b>Comfortable:</b> the 10:00 drop leaves ~5 h before the flight."
+      "noteHTML": "<b>Comfortable:</b> the 10:00 drop leaves ~5 h before the flight.",
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-305409/Norway/Troms/Troms%C3%B8/Troms%C3%B8"
     }
   ],
   "stops": [
@@ -578,16 +608,16 @@
       "key": "haukland",
       "label": "Haukland · N7",
       "type": "scenic",
-      "lat": 68.14,
-      "lng": 13.63,
+      "lat": 68.198,
+      "lng": 13.528,
       "note": "A short summit, then the Haukland–Uttakleiv beach walk."
     },
     {
       "key": "beachcamp",
       "label": "Beach Camp · N8",
       "type": "camp",
-      "lat": 68.08,
-      "lng": 13.4,
+      "lat": 68.104,
+      "lng": 13.289,
       "note": "Hike Ryten over Kvalvika, then surf and sauna at the beach camp."
     },
     {
@@ -618,8 +648,8 @@
       "key": "bunes",
       "label": "Bunes Beach · via Vindstad",
       "type": "camp",
-      "lat": 67.9762,
-      "lng": 13.085,
+      "lat": 67.979,
+      "lng": 12.964,
       "note": "White-sand beach under Helvetestinden — ferry to Vindstad, then an easy ~1 h hike over a low pass. Wild camp on the dunes behind the beach."
     },
     {
@@ -700,23 +730,25 @@
       "url": "https://campmefjord.no",
       "email": "firmapost@campmefjord.no",
       "booking": "advance-online",
-      "note": "Only ~8 van pitches — book well ahead."
+      "note": "Booked ✓ · kr 400 · check-in from 14:00.",
+      "booked": true
     },
     {
       "day": "D3",
       "name": "Midnattsol Camping",
       "url": "https://midnattsolcamping.com",
       "email": "post@midnattsolcamping.com",
-      "booking": "advance-phone-email",
-      "note": "60 pitches; reserve ahead, ties to ferry-day arrival."
+      "booking": "first-come",
+      "note": "No pitch reservations (cabins only) — self check-in machine. Settle in early on ferry day."
     },
     {
       "day": "D5",
       "name": "Sandsletta Camping",
       "url": "https://camping-lofoten.no",
       "email": "sandsletta@camping-lofoten.com",
-      "booking": "advance-phone",
-      "note": "Recommend advance, esp. Jul–Aug."
+      "booking": "advance-online",
+      "note": "Booked ✓ & paid · pitch w/ electricity · kr 450.",
+      "booked": true
     },
     {
       "day": "D8",
@@ -729,10 +761,10 @@
     {
       "day": "D9",
       "name": "Moskenes Camping",
-      "url": "https://moskenescamping.no",
+      "url": "https://campio.no/campsite/moskenes-camping",
       "phone": "+47 994 89 405",
-      "booking": "reserve-1-2-days",
-      "note": "Reservations only 1–2 days ahead; fills mid-afternoon."
+      "booking": "advance-online",
+      "note": "Van pitches book online (Campio); tent pitches can't pre-book in summer. Fills mid-afternoon."
     },
     {
       "day": "D11",
@@ -780,7 +812,7 @@
   "budget": {
     "default": {
       "totalNOK": 75073,
-      "totalEUR": 6705,
+      "totalEUR": 6703,
       "assumes": "surf ON, kayak OFF"
     },
     "groups": [
@@ -929,6 +961,14 @@
   },
   "activities": [
     {
+      "title": "Whale safari, Andenes",
+      "tag": "Day 4 · Andenes",
+      "tint": false,
+      "textHTML": "Out over the shelf edge where sperm whales feed — the fixed ~09:00 departure anchors Day 4, so book ahead and arrive 45–60 min early. <a href=\"https://whalesafari.no/en/\" target=\"_blank\" rel=\"noopener\">whalesafari.no</a>",
+      "url": "https://whalesafari.no/en/",
+      "linkText": "whalesafari.no"
+    },
+    {
       "title": "Lofoten Links golf",
       "tag": "Day 6 · Gimsøy",
       "tint": false,
@@ -1063,9 +1103,6 @@
     ],
     "lead": "Keeping fuel in the tank, a plan for the wet days, and the numbers you hope you never need."
   },
-  "credits": {
-    "coffeeGuide": "@helenemoo’s Lofoten guide"
-  },
   "pageSubtitles": {
     "overview": "Tromsø → Lofoten · 1–14 Aug 2026",
     "route": "13 nights · ~1,400 km loop",
@@ -1171,32 +1208,6 @@
         "title": "Van back · fly home",
         "sub": "Return the van at 10:00 and fly home in the afternoon."
       }
-    ],
-    "anchors": [
-      {
-        "when": "Sat 1 · 22:50",
-        "what": "Land Tromsø (BRU → Oslo → TOS)"
-      },
-      {
-        "when": "Mon 3 · 09:00",
-        "what": "Camper pickup, Kvaløysletta"
-      },
-      {
-        "when": "Wed 5 · 08:30",
-        "what": "Gryllefjord ferry queue (11:00 sailing)"
-      },
-      {
-        "when": "Thu 6 · ~09:00",
-        "what": "Whale safari, Andenes"
-      },
-      {
-        "when": "Mon 10 · ~14:00",
-        "what": "Claim pitch · Lofoten Beach Camp"
-      },
-      {
-        "when": "Fri 14 · 10:00",
-        "what": "Van back · 15:00 fly home"
-      }
     ]
   },
   "charts": {
@@ -1216,15 +1227,15 @@
       ],
       "data": [
         3.75,
-        1,
-        0.4,
         1.5,
+        0.4,
+        1.75,
         2,
-        0.75,
         1,
-        0.75,
-        0.6,
-        4.75,
+        1,
+        1,
+        0.67,
+        4.5,
         4
       ],
       "note": "D3 & D5 add a ferry on top; D1, D10 & D11 are the long hauls."
@@ -1268,7 +1279,7 @@
     [
       [
         "Sleep",
-        "<a href=\"https://campmefjord.no\" target=\"_blank\" rel=\"noopener\"><b>Camp Mefjord</b></a>, Mefjordvær · ~kr 350–450"
+        "<a href=\"https://campmefjord.no\" target=\"_blank\" rel=\"noopener\"><b>Camp Mefjord</b></a>, Mefjordvær · kr 400 · booked ✓"
       ],
       [
         "Fuel · shop",
@@ -1280,7 +1291,7 @@
       ],
       [
         "Book",
-        "Book Camp Mefjord online now — only ~8 van pitches, so reserve well ahead"
+        "Camp Mefjord booked ✓ — check-in from 14:00"
       ]
     ],
     [
@@ -1316,7 +1327,7 @@
       ],
       [
         "Book · queue",
-        "Reserve Midnattsol ahead (phone/email) · Ferry pay-on-board ~kr 1,985 (6–8 m) · be in the 08:30 queue for 11:00 · puffin ~kr 500 pp"
+        "Midnattsol takes no pitch bookings — first-come, arrive early · Ferry pay-on-board ~kr 1,985 (6–8 m) · be in the 08:30 queue for 11:00 · puffin ~kr 500 pp"
       ]
     ],
     [
@@ -1340,7 +1351,7 @@
     [
       [
         "Sleep",
-        "<a href=\"https://camping-lofoten.no\" target=\"_blank\" rel=\"noopener\"><b>Sandsletta Camping</b></a> · ~kr 400"
+        "<a href=\"https://camping-lofoten.no\" target=\"_blank\" rel=\"noopener\"><b>Sandsletta Camping</b></a> · kr 450 · booked ✓"
       ],
       [
         "Fuel · shop",
@@ -1352,7 +1363,7 @@
       ],
       [
         "Book",
-        "Reserve Sandsletta ahead by phone (esp. Jul–Aug high season) · Melbu–Fiskebøl ferry pay on board, ~hourly"
+        "Sandsletta booked ✓ & paid · Melbu–Fiskebøl ferry pay on board, ~hourly"
       ],
       [
         "Coffee &amp; extras",
@@ -1440,7 +1451,7 @@
       ],
       [
         "Book",
-        "Call Moskenes ~2 days ahead to reserve (fills mid-afternoon) · optional kayak ~kr 2,200 · Reinebringen 07:30 for parking"
+        "Book Moskenes van pitch online via Campio (fills mid-afternoon) · optional kayak ~kr 2,200 · Reinebringen 07:30 for parking"
       ],
       [
         "Coffee &amp; extras",
@@ -1593,12 +1604,12 @@
             14.1
           ],
           [
-            68.181,
-            13.553
+            68.198,
+            13.528
           ],
           [
-            68.075,
-            13.363
+            68.104,
+            13.289
           ],
           [
             67.933,
@@ -1633,5 +1644,5 @@
   "activityExtrasHTML": "<div class=\"card cool mt\"><h3 style=\"color:var(--glacier)\">Free &amp; unforgettable</h3>\n        <ul>\n          <li><b>A \"midnight\" summit</b> — Reinebringen or Festvågtind at 21:00–23:00 for golden light and an empty trail.</li>\n          <li><b>Sauna + sea dip</b> — the Nordic recovery ritual; saunas at Sandsletta (D5), Lofoten Beach Camp (D8) and Reine (D9).</li>\n          <li><b>Fish straight off the boat</b> — buy the day's cod or halibut dockside at Henningsvær or Ballstad.</li>\n          <li><b>One full-album drive</b> — the Day-10 run off the islands is made for no-skip listening.</li>\n        </ul>\n      </div>\n\n      <div class=\"row r2 mt\">\n        <div class=\"card\"><h3>Free fish for the BBQ</h3>\n          <p>Saltwater fishing is <b>free and licence-free</b> — shore, pier, rocks or boat. Your hand-line is all you need. August's easy targets:</p>\n          <ul>\n            <li><b>Mackerel</b> (makrell) — inshore Jul–Sep, off any pier; best on the grill.</li>\n            <li><b>Coalfish</b> (sei) — everywhere off rocks &amp; harbour walls.</li>\n            <li><b>Pollock</b> (lyr) — kelp edges near dusk; white, flaky.</li>\n            <li><b>Cod</b> (torsk) — jig deeper water near bridge currents.</li>\n          </ul>\n        </div>\n        <div class=\"card cool\"><h3 style=\"color:var(--glacier)\">The rules &amp; best stops</h3>\n          <ul>\n            <li>Handheld tackle only; stay <b>100 m+</b> from fish farms.</li>\n            <li>Mind minimum sizes; eat it there (no selling, no big export).</li>\n            <li>Rivers/lakes need a <em>fiskekort</em> — stick to the sea.</li>\n          </ul>\n          <div class=\"subh\">Best shore stops</div>\n          <p style=\"font-size:13px\">Husøy &amp; Gryllefjord (Senja) · Andenes breakwater &amp; Bleik · Svolvær/Kabelvåg harbours · Sundklakk bridge · Henningsvær &amp; Ballstad piers · Fredvang bridges · Uttakleiv/Eggum · Reine·Hamnøy·Å roadside deep water.</p>\n        </div>\n      </div>",
   "budgetLead": "Estimates for 2026 (≈ €1 = 11.2 NOK). Tick what you'll do and switch the view — figures and the chart update live. Camper, flights and the Tromsø stay are already paid.",
   "budgetTableNote": "\"Per day\" averages across 11 days; \"per person\" splits every line in two. Flights & Tromsø stay are estimates until you have the real figures.",
-  "activitiesLead": "Add-ons that fit the days you're already on — book the first two ahead, decide the rest on the day."
+  "activitiesLead": "Add-ons that fit the days you're already on — book the first three ahead, decide the rest on the day."
 }
