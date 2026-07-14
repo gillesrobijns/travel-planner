@@ -215,6 +215,9 @@ button,a,.dhead,.railrow{-webkit-tap-highlight-color:transparent;touch-action:ma
 .ddmeta{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
 .ddmeta span,.ddmeta a{display:inline-flex;align-items:center;gap:4px;padding:3px 9px;border-radius:999px;background:var(--surface-2);color:var(--text-2);font-size:12px;font-weight:600;border:1px solid var(--border);text-decoration:none}
 .ddmeta a:hover{border-color:var(--accent);color:var(--text)}
+/* the live-forecast slot is empty until MET answers — don't render an empty pill */
+.ddmeta span:empty{display:none}
+.dmeta .m-wxlive:empty{display:none}
 .ddnavbtns{display:flex;gap:6px;flex:none}
 .ddsec{margin-top:16px}
 .ddsec>h4{display:flex;align-items:center;gap:7px;margin:0 0 9px;font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--text-3)}
