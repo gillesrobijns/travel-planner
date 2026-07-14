@@ -4,7 +4,7 @@
     "slug": "lofoten-2026",
     "title": "Lofoten Roadtrip 2026",
     "brandLine": "LOFOTEN ROADTRIP 2026",
-    "brandSub": "CAMPER TRIP · #TOS12792",
+    "brandSub": "CAMPER TRIP · ",
     "appTitle": "Lofoten Roadtrip",
     "subtitle": "Lofoten Roadtrip · Tromsø → Lofoten · 1–14 Aug 2026",
     "travellers": [
@@ -25,7 +25,6 @@
     "camper": {
       "operator": "Arctic Campers",
       "model": "VW Crafter 4×4 \"Summit\"",
-      "bookingRef": "TOS12792",
       "lengthMeters": 6
     },
     "pickup": {
@@ -74,7 +73,7 @@
       "label": "Nights"
     },
     {
-      "value": "~1,400",
+      "value": "~1,500",
       "label": "km loop"
     },
     {
@@ -108,6 +107,11 @@
       "at": "2026-08-05T08:30",
       "what": "Gryllefjord ferry queue (11:00 sailing)",
       "durationMin": 150
+    },
+    {
+      "at": "2026-08-06T16:15",
+      "approx": true,
+      "what": "Melbu–Fiskebøl ferry into Lofoten (~hourly, pay on board)"
     },
     {
       "at": "2026-08-10T14:00",
@@ -156,7 +160,83 @@
           "text": "Collect the camper and roll into Day 1."
         }
       ],
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-305409/Norway/Troms/Troms%C3%B8/Troms%C3%B8"
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-305409/Norway/Troms/Troms%C3%B8/Troms%C3%B8",
+      "deepdive": {
+        "lead": "You land at 22:50 with the sun still up. Nothing to do but drop the bags and let the town do the rest.",
+        "route": {
+          "summary": "No driving — you’re on foot in Tromsø until the van pickup on Monday.",
+          "legs": [
+            {
+              "at": "~23:15",
+              "from": "Tromsø airport (TOS)",
+              "to": "town centre",
+              "km": 5,
+              "time": "~15 min",
+              "note": "Flybussen or taxi; the airport is on Tromsøya, minutes from the centre."
+            }
+          ]
+        },
+        "sleep": {
+          "name": "Tromsø · 2 nights in town",
+          "kind": "hotel",
+          "booking": "advance-online",
+          "note": "Two easy nights before the van. Budget line carries kr 4,200 (≈ €375) — still a placeholder until you book.",
+          "facilities": [
+            "Real bed",
+            "Real shower",
+            "Last laundry before the road"
+          ]
+        },
+        "hikes": [
+          {
+            "name": "Fjellheisen · Storsteinen",
+            "external": true,
+            "url": "https://fjellheisen.no/en/",
+            "note": "Cable car up to 421 m for the city-and-fjord view. Or walk the 1,200 Sherpa steps beside it if legs are itching (~45 min up).",
+            "stats": "cable car · 4 min · or ~45 min on foot"
+          }
+        ],
+        "eat": [
+          {
+            "name": "Fiskekompaniet",
+            "kind": "restaurant",
+            "price": "kr 400–600 main",
+            "note": "Harbourside, the best shellfish in town — king crab, oysters, catch of the day. Book ahead; it fills in August.",
+            "url": "https://www.fiskekompani.no/"
+          },
+          {
+            "name": "Emmas Drømmekjøkken",
+            "kind": "restaurant",
+            "price": "kr 800+ tasting",
+            "note": "Across from the cathedral. Tasting menus (5/8/10 courses) of modern northern Norwegian. The blow-out option if you want one.",
+            "url": "https://emmasdrommekjokken.no/"
+          },
+          {
+            "name": "Risø / Kaffebønna",
+            "kind": "cafe",
+            "price": "kr 50–120",
+            "note": "Where locals actually take their coffee. Good for a slow first morning."
+          }
+        ],
+        "drink": [
+          {
+            "name": "Ølhallen",
+            "kind": "bar",
+            "note": "Mack’s own beer hall — Norway’s oldest brewery, 1877. ~70 taps, closes early-ish. Do this one.",
+            "url": "https://olhallen.no/"
+          },
+          {
+            "name": "Bastard Bar",
+            "kind": "bar",
+            "note": "Cocktails and a late crowd if the light keeps you up."
+          }
+        ],
+        "tips": [
+          "The sun barely sets — the midnight-sun window has just closed but it stays bright past midnight. Bring the eye mask.",
+          "Do the big shop tomorrow, not today: no van, no fridge.",
+          "Vinmonopolet (state liquor store) is the only place for wine/spirits over 4.7% — Mon–Fri to 18:00, Sat to 15:00, closed Sunday. Stock the van here, it’s far cheaper than the islands."
+        ]
+      }
     },
     {
       "id": "D1",
@@ -188,8 +268,89 @@
           "text": "Settle at the Fjordgård / Mefjord campsite, cast off the pier and fire up the first BBQ of the trip."
         }
       ],
-      "noteHTML": "<b>Booked:</b> Camp Mefjord, Camp 1 spot 06 (ref 2008) — check-in from 14:00. Confirmation is in Gmail.",
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-304609/Norway/Troms/Senja/Mefjordv%C3%A6r"
+      "noteHTML": "<b>Booked:</b> Camp Mefjord — check-in from 14:00. Confirmation is in Gmail.",
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-304609/Norway/Troms/Senja/Mefjordv%C3%A6r",
+      "deepdive": {
+        "lead": "Van day. Collect at Kvaløysletta, do the one big shop of the trip, then drive into Senja’s outer edge.",
+        "route": {
+          "summary": "~250 km, 3h45 of actual driving — but with the pickup and the shop, expect it to eat the day.",
+          "legs": [
+            {
+              "at": "09:00",
+              "from": "Tromsø",
+              "to": "Arctic Campers, Kvaløysletta",
+              "km": 12,
+              "time": "20 min",
+              "note": "Pickup 09:00. Walk the van with the handover checklist: gas, water, toilet, tyre kit."
+            },
+            {
+              "at": "10:15",
+              "from": "Kvaløysletta",
+              "to": "Bardufoss / Finnsnes",
+              "km": 130,
+              "time": "1h50",
+              "note": "E8 south then Rv858 — the big supermarkets are here, last cheap prices before Senja."
+            },
+            {
+              "at": "13:15",
+              "from": "Finnsnes",
+              "to": "Mefjordvær (Camp Mefjord)",
+              "km": 105,
+              "time": "1h45",
+              "note": "Fv862 over the island. Narrow, twisting, spectacular — don’t rush the last hour."
+            }
+          ],
+          "driveTip": "Fill the tank in Finnsnes. Fuel on outer Senja is scarce and dear."
+        },
+        "sleep": {
+          "name": "Camp Mefjord",
+          "kind": "campsite",
+          "priceNOK": 400,
+          "booking": "advance-online",
+          "booked": true,
+          "note": "Booked ✓ check-in from 14:00. Right on the pier at Mefjordvær.",
+          "url": "https://campmefjord.no",
+          "facilities": [
+            "Electric hook-up",
+            "Showers",
+            "Pier access — cast straight from the site"
+          ]
+        },
+        "hikes": [],
+        "eat": [
+          {
+            "name": "The big shop · Coop Extra / Rema 1000, Finnsnes",
+            "kind": "grocery",
+            "price": "kr 2,000–2,500 for the week",
+            "note": "The one real provisioning stop. Coffee, breakfast, pasta/rice, tins, oil, salt, butter, onions, potatoes, beer, snacks. Prices climb the further out you go.",
+            "url": "https://rema.no/"
+          },
+          {
+            "name": "Salteriet, Mefjord Brygge",
+            "kind": "restaurant",
+            "price": "kr 300–450 main",
+            "note": "Local ‘yttersida’ menu — halibut with grated carrot and browned butter, whale steak, reindeer. Fjord views. 5 min from the campsite if you don’t feel like cooking on arrival night.",
+            "url": "https://www.mefjordbrygge.no/restaurant/"
+          },
+          {
+            "name": "Pier-side BBQ",
+            "kind": "van",
+            "note": "The plan of record: grill at the pier, beer in hand, midnight light. Buy the fish or catch it."
+          }
+        ],
+        "drink": [
+          {
+            "name": "Van stock",
+            "kind": "van",
+            "note": "Whatever you loaded at Vinmonopolet in Tromsø. Beer up to 4.7% is in the supermarkets, but only until 20:00 weekdays / 18:00 Saturdays — and never on Sunday."
+          }
+        ],
+        "tips": [
+          "Norwegian supermarket beer stops selling at 20:00 sharp on weekdays. Cashiers will not bend.",
+          "Download offline maps for Senja now — coverage on the outer fjords is patchy.",
+          "Test the gas ring and the fridge before you leave the depot, not at 22:00 on a pier."
+        ]
+      }
     },
     {
       "id": "D2",
@@ -222,7 +383,78 @@
         }
       ],
       "hikeRef": "hesten",
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-299731/Norway/Troms/Senja/Gryllefjorden"
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-299731/Norway/Troms/Senja/Gryllefjorden",
+      "deepdive": {
+        "lead": "The trip’s first real summit, then a short reposition to sleep beside the ferry quay.",
+        "route": {
+          "summary": "~70 km, 1h30 — a light driving day built around the hike.",
+          "legs": [
+            {
+              "at": "08:15",
+              "from": "Mefjordvær",
+              "to": "Fjordgård (Hesten trailhead)",
+              "km": 35,
+              "time": "50 min",
+              "note": "Parking fills by 09:00 in season. Paid parking, card only."
+            },
+            {
+              "at": "16:00",
+              "from": "Fjordgård",
+              "to": "Gryllefjord",
+              "km": 35,
+              "time": "40 min",
+              "note": "Stage right by the quay — you want to be in the queue at 08:30 tomorrow."
+            }
+          ]
+        },
+        "sleep": {
+          "name": "Gryllefjord · scenic night by the quay",
+          "kind": "wild",
+          "priceNOK": 0,
+          "booking": "none",
+          "note": "No campsite — a free/scenic pitch near the ferry quay. Allemannsretten allows a night in the van in a lay-by; be discreet, leave nothing.",
+          "facilities": [
+            "Free",
+            "Zero facilities — top up water at the campsite before leaving Mefjord"
+          ]
+        },
+        "hikes": [
+          {
+            "ref": "hesten",
+            "when": "Start ~09:00",
+            "note": "The postcard: the Segla wall dropping 640 m straight into the fjord, seen from across the ridge. Steep, boggy in places, exposed at the top — trail shoes with grip, not trainers. The view is at the very end; don’t turn back early."
+          }
+        ],
+        "eat": [
+          {
+            "name": "Bergsbotn / Tungeneset picnic",
+            "kind": "van",
+            "note": "Two of Senja’s National Tourist Route viewpoints sit on the road to Fjordgård. Coffee and a sandwich at the Tungeneset boardwalk beats any café."
+          },
+          {
+            "name": "Summit lunch",
+            "kind": "van",
+            "note": "Pack it up Hesten — a thermos and a roll at the top with Segla in front of you is one of the meals you’ll remember."
+          },
+          {
+            "name": "Joker Gryllefjord",
+            "kind": "grocery",
+            "note": "Small village shop for a top-up. Limited stock, early close — don’t rely on it for dinner."
+          }
+        ],
+        "drink": [
+          {
+            "name": "Summit thermos",
+            "kind": "van",
+            "note": "Coffee at the top. It’s the whole point."
+          }
+        ],
+        "tips": [
+          "Check the Gryllefjord ferry queue tonight — cars start lining up the evening before in high season.",
+          "Hesten is exposed and unmarked in fog. If the cloud is on the ridge, the view is gone; save it and take the Segla side instead.",
+          "Fill the water tank before you leave Camp Mefjord. Tonight has nothing."
+        ]
+      }
     },
     {
       "id": "D3",
@@ -255,10 +487,106 @@
           "time": "14:00+",
           "label": "Fish",
           "text": "Bleik beach and an optional Måtind walk; mackerel off the pier — or take the boat out to Bleiksøya's puffin colony."
+        },
+        {
+          "time": "22:30",
+          "label": "Golf",
+          "text": "Tee off at <a href=\"https://www.google.com/maps?q=Bleik+Golfstr%C3%B8mbane\" target=\"_blank\" rel=\"noopener\"><b>Bleik Golfstrømbane</b></a> — the 9-hole links is a few hundred metres from the pitch, and the sun only sets at 22:49. It never drops more than 6° below the horizon, so it stays light enough to play right through to the 03:09 sunrise."
         }
       ],
       "noteHTML": "<b>Fallback:</b> miss the 11:00 and the next sailing is 15:00 — but expect Bleik to be busier by then.",
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-299384/Norway/Nordland/And%C3%B8y/Bleik"
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-299384/Norway/Nordland/And%C3%B8y/Bleik",
+      "deepdive": {
+        "lead": "The open-sea crossing to Andøya, then a beach and a pier full of mackerel.",
+        "route": {
+          "summary": "~25 km of driving, plus a 1h40 ferry that is the day.",
+          "legs": [
+            {
+              "at": "11:00",
+              "from": "Gryllefjord",
+              "to": "Andenes",
+              "km": 0,
+              "time": "⛴ 1h40",
+              "note": "Open-sea crossing, arrive 12:40. Stand on deck: whales and sea eagles are a real chance."
+            },
+            {
+              "at": "12:40",
+              "from": "Andenes",
+              "to": "Bleik",
+              "km": 12,
+              "time": "15 min",
+              "note": "Short hop down the west coast to the campsite."
+            }
+          ],
+          "driveTip": "Miss the 11:00 and the next is 15:00 — which puts you into a much busier Bleik."
+        },
+        "sleep": {
+          "name": "Midnattsol Camping, Bleik",
+          "kind": "campsite",
+          "priceNOK": 350,
+          "booking": "first-come",
+          "note": "No booking — turn up early. Aim to settle by ~13:00, before the afternoon fills. Beach on one side, mountains on the other.",
+          "facilities": [
+            "Electric hook-up",
+            "Showers",
+            "Steps from Bleik beach and the pier"
+          ]
+        },
+        "hikes": [
+          {
+            "name": "Måtind",
+            "external": true,
+            "url": "https://www.alltrails.com/en-gb/trail/norway/nordland/matind",
+            "stats": "~4 km · 300 m · 2 h · moderate",
+            "note": "Optional afternoon walk. Boardwalked start, a scramble at the end, and a knife-edge view down the whole 2.5 km of Bleik beach. Do it if the ferry lands you in good weather."
+          }
+        ],
+        "eat": [
+          {
+            "name": "Eat before you tee off",
+            "kind": "van",
+            "note": "The clubhouse is a clubhouse, not a kitchen. Grill the mackerel at the pitch around 20:00 so you're on the first tee for 22:30 with the sun on the horizon."
+          },
+          {
+            "name": "Mackerel off the pier",
+            "kind": "catch",
+            "price": "free",
+            "note": "August is peak mackerel. A simple spinner or a feather rig off Bleik pier, evening tide. Bleed them, fillet them, straight in the pan with butter and salt. Best meal of the trip if it lands."
+          },
+          {
+            "name": "Café Alveland, Andenes",
+            "kind": "cafe",
+            "price": "kr 60–150",
+            "note": "Hand-made cinnamon rolls, cakes and open sandwiches in nostalgic old premises. Open daily in summer."
+          },
+          {
+            "name": "Restaurant Orion, Andenes",
+            "kind": "restaurant",
+            "price": "kr 300–450",
+            "note": "Best setting in Andenes, down by the water. Reindeer stew, grilled stockfish."
+          },
+          {
+            "name": "Coop Prix Andenes",
+            "kind": "grocery",
+            "note": "Top-up shop on the way through. Last decent-sized store before Vesterålen."
+          }
+        ],
+        "drink": [
+          {
+            "name": "Beach beer",
+            "kind": "van",
+            "note": "Bleik faces west into the low sun. Cold one on the sand, ~22:00, is the assignment."
+          }
+        ],
+        "tips": [
+          "<b>Enquiry sent ✓</b> — WhatsApp to the club (+47 974 30 312) on <b>14 Jul 2026</b>: asked for a ~22:30 tee-off on Wed 5 Aug, and two rental sets — <b>one left-handed (men's)</b> + one right-handed (ladies'). Awaiting reply. The left-handed set is the open question: small nine-hole clubs often carry only a couple of bags, and left-handed is the first thing they don't have. If they can't, bring your own or make it a walk with a beer.",
+          "<b>Midnight golf:</b> Bleik Golfstrømbane, 9 holes on the links right by the campsite. Green fee kr 250 for 9, kr 300 for 18, kr 500 for 24-hour play. Clubs kr 200 a set — bring nothing. Ring ahead: +47 974 30 312.",
+          "<b>The light, honestly:</b> Bleik's true midnight sun ends 24 July, so on 5 August the sun does set — 22:49, back up 03:09. But it never sinks more than 6° below the horizon, so there's no real darkness: it's continuous twilight and you can read a scorecard at 01:00. Midnight golf, just not midnight-sun golf.",
+          "The puffin safari to Bleiksøya (~80,000 pairs, sea eagles overhead, 90 min) leaves from the harbour right by the campsite — book the afternoon you arrive, it often sells out.",
+          "Ferry is cash-free; they scan the plate and card on board.",
+          "If the mackerel are in, catch more than you need — fillets keep two days in the van fridge."
+        ]
+      }
     },
     {
       "id": "D4",
@@ -267,25 +595,161 @@
       "dot": "scenic",
       "badge": "Scenic",
       "badgeClass": "scenic",
-      "title": "Andøya → Vesterålen",
-      "meta": "~110 km · 1h45",
+      "title": "Andøya → into Lofoten",
+      "meta": "~185 km · 3h15 + ⛴ 25 min",
       "music": "Daft Punk — Random Access Memories",
       "blocks": [
         {
           "time": "morning",
-          "text": "A slow morning on Andøya — the Bleik beach, the Måtind ridge, or coffee in Andenes before you roll south."
+          "text": "A slow morning on Andøya — the Bleik beach, the Måtind ridge, or the whale safari out of Andenes if you fancy it. You have until ~12:30."
         },
         {
-          "time": "~13:30",
-          "text": "Drive south through Vesterålen's gentler, rolling scenery."
+          "time": "~12:30",
+          "text": "Roll south through Vesterålen. Stop in Sortland for the last big, cheap restock at Coop Extra — you drive straight through the town either way."
         },
         {
-          "time": "~16:00",
+          "time": "~16:15",
+          "fix": true,
+          "text": "Melbu–Fiskebøl ferry (~25 min, roughly hourly, pay on board). First sight of the Lofoten wall."
+        },
+        {
+          "time": "~17:30",
           "label": "Fish",
-          "text": "Find a quiet, legal spot near Sortland for a free night by the fjord — a slower day to let the trip breathe."
+          "text": "Into Lofoten a day early. Find a scenic pitch out toward Laukvik on Austvågøy — a bonus Lofoten evening you weren’t supposed to have."
         }
       ],
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-285703/Norway/Nordland/Sortland/Sortland"
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-2213663/Norway/Nordland/V%C3%A5gan/Laukvik",
+      "deepdive": {
+        "lead": "The swap: give up the Vesterålen night and cross into Lofoten a day early. Same slow Andøya morning, one longer drive, and you land an extra Lofoten evening.",
+        "route": {
+          "summary": "~185 km, 3h15 plus a 25-min ferry. The longest day since D1, but still shorter than it — and you drive through Sortland regardless, so the big restock is unchanged.",
+          "driveTip": "Diesel and the Coop Extra shop in Sortland. Aim for a Melbu ferry around 16:00–16:30; they run roughly hourly and you pay on board.",
+          "legs": [
+            {
+              "at": "09:00",
+              "from": "Bleik",
+              "to": "Andenes",
+              "km": 12,
+              "time": "15 min",
+              "note": "Whale safari (back ~13:00 if you take it) or the Space Centre. If you do the safari, push the ferry back an hour — the light holds until 22:30."
+            },
+            {
+              "at": "12:30",
+              "from": "Andenes",
+              "to": "Sortland",
+              "km": 95,
+              "time": "1h30",
+              "note": "Rv82 down Andøya’s east side, over the bridge into Vesterålen. Sortland is ‘the blue town’ — murals, and the last cheap supermarket before Lofoten."
+            },
+            {
+              "at": "14:45",
+              "from": "Sortland",
+              "to": "Melbu",
+              "km": 45,
+              "time": "50 min",
+              "note": "South to the ferry quay."
+            },
+            {
+              "at": "16:15",
+              "from": "Melbu",
+              "to": "Fiskebøl",
+              "time": "⛴ 25 min",
+              "note": "Frequent sailings, no booking, pay on board. Stand on deck — the Lofoten wall comes up out of the sea."
+            },
+            {
+              "at": "17:00",
+              "from": "Fiskebøl",
+              "to": "Laukvik (Austvågøy)",
+              "km": 33,
+              "time": "40 min",
+              "note": "E10 south, then out to the north coast. Open horizon, and you’re a day ahead of the plan."
+            }
+          ]
+        },
+        "sleep": {
+          "name": "Austvågøy · scenic night (near Laukvik)",
+          "kind": "wild",
+          "priceNOK": 0,
+          "booking": "none",
+          "note": "The night you gained. A free pitch on the north coast, facing the open sea — and it puts you 10 minutes from Sandsletta, where you’re booked tomorrow anyway.",
+          "facilities": [
+            "Free",
+            "No services — fill water and empty tanks in Sortland on the way through",
+            "Open northern horizon"
+          ]
+        },
+        "hikes": [],
+        "eat": [
+          {
+            "name": "Café Alveland or the Andenes bakery",
+            "kind": "cafe",
+            "price": "kr 60–150",
+            "note": "Breakfast on the way out of Andøya. Hand-made cinnamon rolls and open sandwiches."
+          },
+          {
+            "name": "Coop Extra, Sortland",
+            "kind": "grocery",
+            "price": "kr 500–800",
+            "note": "The mid-trip restock. Bigger and cheaper than anything in Lofoten outside Leknes and Svolvær — and it’s on the road, not a detour."
+          },
+          {
+            "name": "Ekspedisjonen, Sortland",
+            "kind": "restaurant",
+            "price": "kr 250–400",
+            "note": "Harbourside, modern Norwegian on local fish and lamb. Only if you skip the whale safari and have time to sit — otherwise eat in the van in Lofoten tonight.",
+            "url": "https://www.visitnorway.com/listings/ekspedisjonen-restaurant-and-cafe/131124"
+          },
+          {
+            "name": "Arrival dinner in the van",
+            "kind": "van",
+            "note": "Cook at the pitch with the Sortland shopping. First night in Lofoten, sea in front of you, nothing else to do."
+          }
+        ],
+        "drink": [
+          {
+            "name": "Vinmonopolet Sortland",
+            "kind": "shop",
+            "note": "Last easy wine and spirits stop before Lofoten. Closes 18:00 weekdays — you'll be through around 14:00, so it works."
+          },
+          {
+            "name": "A beer on the north coast",
+            "kind": "van",
+            "note": "The one that tastes like a day you stole."
+          }
+        ],
+        "tips": [
+          "<b>The trade, plainly:</b> you give up the Vesterålen scenic night and one lazy afternoon, and you gain a Lofoten evening plus an unhurried Friday morning. Sandsletta stays booked for Fri 7 — <b>nothing needs changing</b>.",
+          "<b>What you lose:</b> this was the trip's only slack day. Six summits in seven days now has no shock absorber — if the weather turns, something gets dropped rather than shuffled.",
+          "You still drive through Sortland, so the big restock, diesel and Vinmonopolet are all unaffected.",
+          "Melbu–Fiskebøl takes no booking. Roughly hourly, ~25 min, pay on board — so a late whale safari just means a later sailing, not a missed one."
+        ],
+        "stops": [
+          {
+            "at": "10:00",
+            "name": "Whale safari, Andenes",
+            "kind": "detour",
+            "cost": "detour · ~3 h · ~kr 1,200 pp",
+            "note": "Sperm whales off the Andøya shelf. It still fits: back around 13:00, ferry at 17:15 instead of 16:15, in Lofoten by 18:30 with four hours of light left.",
+            "url": "https://www.google.com/maps?q=Whale+Safari+Andenes"
+          },
+          {
+            "at": "14:00",
+            "name": "Coop Extra, Sortland",
+            "cost": "free · on the route",
+            "note": "The last big, cheap supermarket before Lofoten — and you pass the door. Restock properly here: fresh veg, bread, coffee, beer.",
+            "url": "https://www.google.com/maps?q=Coop+Extra+Sortland"
+          },
+          {
+            "at": "21:00",
+            "name": "Delpen",
+            "kind": "detour",
+            "cost": "detour · 2.2 km · 374 m · ~2 h",
+            "note": "You’re camped on its doorstep tonight instead of tomorrow. The guide calls Delpsheia <b>‘mandatory if you find yourself in Lofoten’</b> — 374 m, short and steep, with the iconic look down on Midnattsolveien and the turquoise shallows. Park at the <b>second lot marked ‘Matmora’</b> on the road to Delp. Muddy and slippery when wet.",
+            "url": "https://lofotenhikes.com/hike/delpen-374m/"
+          }
+        ]
+      },
+      "ferry": "Melbu–Fiskebøl"
     },
     {
       "id": "D5",
@@ -294,32 +758,140 @@
       "dot": "",
       "badge": "Campsite",
       "badgeClass": "camp",
-      "title": "Into Lofoten · Svolvær",
-      "meta": "~80 km + ⛴",
-      "ferry": "Melbu–Fiskebøl",
+      "title": "Fløya · Svolvær → Sandsletta",
+      "meta": "~55 km · 1h",
       "music": "Jon Hopkins — Immunity",
       "blocks": [
         {
-          "time": "08:30",
-          "text": "Sortland to Melbu, then the short Melbu–Fiskebøl ferry (~25 min, roughly hourly) onto the archipelago."
+          "time": "slow morning",
+          "text": "No ferry to catch and no Vesterålen to cross — the morning you gained. Coffee on the north coast, or Delpen if you didn’t walk it last night."
         },
         {
           "time": "~11:00",
-          "text": "Drive into Lofoten proper and on to Svolvær, the islands’ capital."
+          "text": "Down to Svolvær, the islands’ capital: harbour, Kringla for cinnamon buns, coffee at Brent."
         },
         {
           "time": "midday",
           "hikeRef": "floya",
-          "text": " above town — the classic look down over Svolvær and the 'Devil's Gate' wedged between two slabs of rock (~3h)."
+          "labelH": true,
+          "label": "Hike",
+          "text": " above town — the classic look down over Svolvær and the Vestfjord."
         },
         {
           "time": "eve",
           "label": "Fish",
-          "text": "Settle at Sandsletta Camping; cast from the harbour walls."
+          "text": "Settle at Sandsletta Camping (booked ✓); cast from the harbour walls."
         }
       ],
       "hikeRef": "floya",
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-276917/Norway/Nordland/V%C3%A5gan/Svolv%C3%A6r"
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-276917/Norway/Nordland/V%C3%A5gan/Svolv%C3%A6r",
+      "deepdive": {
+        "lead": "A day that just got easier: you're already in Lofoten, so the ferry and the long drive are behind you. A slow morning, then Fløya above Svolvær.",
+        "route": {
+          "summary": "~55 km, 1h. Barely a driving day — the crossing happened yesterday.",
+          "legs": [
+            {
+              "at": "10:30",
+              "from": "Laukvik (Austvågøy)",
+              "to": "Svolvær",
+              "km": 35,
+              "time": "45 min",
+              "note": "South across Austvågøy to the capital. No queue, no ferry, no rush."
+            },
+            {
+              "at": "17:30",
+              "from": "Svolvær",
+              "to": "Sandsletta Camping, Laukvik",
+              "km": 20,
+              "time": "30 min",
+              "note": "Back north to the booked pitch on the sea."
+            }
+          ]
+        },
+        "sleep": {
+          "name": "Sandsletta Camping",
+          "kind": "campsite",
+          "priceNOK": 400,
+          "booking": "advance-online",
+          "booked": true,
+          "note": "Booked ✓. At Laukvik on Austvågøy, on the sea with an open northern horizon — the good one for late light.",
+          "url": "https://sandsletta.no/",
+          "facilities": [
+            "Electric hook-up",
+            "Showers",
+            "Kitchen",
+            "Sea-front pitches"
+          ]
+        },
+        "hikes": [
+          {
+            "ref": "floya",
+            "when": "Afternoon",
+            "note": "Straight up behind Svolvær. The Sherpa steps do most of the climbing; Djevelporten — the boulder wedged in the cleft — is the photo, and it’s a short scramble past the summit. Slippery when wet."
+          },
+          {
+            "name": "Tjeldbergtind",
+            "external": true,
+            "stats": "3.8 km · 367 m · 1–2 h · easy, not exposed",
+            "when": "Wet-weather swap",
+            "note": "The guide's answer to a bad day: Fløya is exposed with a narrow summit, and its Sherpa steps are lethal in rain. Tjeldbergtind is 20 min from Svolvær centre, never exposed, and 'never disappoints'. Take it instead of the galleries if the cloud is down.",
+            "url": "https://www.alltrails.com/trail/norway/nordland/tjeldbergtinden"
+          }
+        ],
+        "eat": [
+          {
+            "name": "Børsen Spiseri, Svolvær",
+            "kind": "restaurant",
+            "price": "kr 400–600",
+            "note": "In an old fish-landing house on the quay. Stockfish, whale, cloudberries — the classic Lofoten dinner. Book it.",
+            "url": "https://svinoya.no/en/borsen-spiseri/"
+          },
+          {
+            "name": "Kringla bakeri, Svolvær",
+            "kind": "bakery",
+            "price": "kr 40–90",
+            "note": "The town bakery — and the place that makes the bun for Anita’s famous fish burger further south. Pastries for the hike."
+          },
+          {
+            "name": "Rema 1000 / Coop Extra Svolvær",
+            "kind": "grocery",
+            "note": "One of only two proper supermarket clusters in Lofoten (the other is Leknes). Restock properly here."
+          }
+        ],
+        "drink": [
+          {
+            "name": "Lofotpils, Svolvær",
+            "kind": "brewery",
+            "price": "kr 100–150 / tour from kr 350",
+            "note": "Lofoten’s only brewery, in a 1937 fish-landing facility. The one Norwegian microbrewery that brews pilsner — the Svolvær water is pure enough for it. Tours end in a 6-beer tasting; there’s a food pairing with fenalår, dried whale and cod-roe caviar.",
+            "url": "https://lofotpils.no/"
+          }
+        ],
+        "tips": [
+          "The morning is yours: no ferry, no Vesterålen crossing. If the sky is clear and the legs are fresh, Delpen before you drive south.",
+          "Djevelporten and Fløya are one outing, not two: the Sherpa stairs, the boulder in the cleft, then the ridge on to the summit. Fløya is <b>590 m and exposed with a narrow top</b> — it's the harder half.",
+          "Fløya’s steps are unforgiving in rain. If it’s wet, swap it for the galleries and save the legs for Festvågtinden tomorrow.",
+          "Svolvær is the last big-shop chance for four days. Beer, coffee, gas.",
+          "Sandsletta is booked and paid for tonight (Fri 7 → Sat 8) — the date did not move when you dropped the Sortland night."
+        ],
+        "stops": [
+          {
+            "at": "16:30",
+            "name": "Kabelvåg",
+            "cost": "free · 10 min off the E10",
+            "note": "The old capital of Lofoten and a prettier harbour than Svolvær — wooden houses round a small bay, plus the Lofotmuseum and the aquarium. Straight past on the way back to Laukvik.",
+            "url": "https://www.google.com/maps?q=Kabelv%C3%A5g+Lofoten"
+          },
+          {
+            "at": "20:00",
+            "name": "Delpen",
+            "kind": "detour",
+            "cost": "detour · 2.2 km · 374 m · ~2 h",
+            "note": "On the doorstep at Laukvik, with an unobstructed northern horizon. Short and steep, not technical. Skip it if you walked it last night — or if Fløya has finished your legs.",
+            "url": "https://lofotenhikes.com/hike/delpen-374m/"
+          }
+        ]
+      }
     },
     {
       "id": "D6",
@@ -328,8 +900,8 @@
       "dot": "scenic",
       "badge": "Scenic",
       "badgeClass": "scenic",
-      "title": "Henningsvær",
-      "meta": "~50 km · 1h",
+      "title": "Henningsvær → Unstad",
+      "meta": "~110 km · 2h",
       "music": "Khruangbin — Con Todo El Mundo",
       "blocks": [
         {
@@ -342,13 +914,198 @@
           "text": "Drop into Henningsvær — galleries, good coffee, the football pitch out on the rocks, the working harbour. (Lot full? Do the village first, hike later.)"
         },
         {
-          "time": "afternoon",
-          "label": "Fish",
-          "text": "Drift out toward a scenic Gimsøy pitch; fish the Sundklakk bridge current."
+          "time": "~16:00",
+          "text": "West over the Gimsøy bridges, then the <b>Valbergsveien</b> backroad to Leknes rather than the E10 — quieter, prettier, barely longer."
+        },
+        {
+          "time": "~18:00",
+          "label": "Surf",
+          "text": "Through the tunnel to Unstad and out to the <a href=\"https://www.google.com/maps/search/?api=1&query=68.2718202,13.582594\" target=\"_blank\" rel=\"noopener\"><b>beach car park on Unstadsjøveien</b></a> — open 24 h, right on the sand, north-facing. Surf, then the low sun down the bay."
         }
       ],
       "hikeRef": "festvagtinden",
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-276748/Norway/Nordland/V%C3%A5gan/Henningsv%C3%A6r"
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-2211714/Norway/Nordland/Vestv%C3%A5g%C3%B8y/Unstad",
+      "deepdive": {
+        "lead": "Festvågtind at dawn, Henningsvær for the afternoon, then west across the islands to sleep at a surf beach instead of on the Gimsøy flats.",
+        "route": {
+          "summary": "~110 km, 2h. Longer than the old Gimsøy night, but it buys a shorter D7 — and the drive west is the Valbergsveien backroad, which was always the plan, just a day earlier.",
+          "driveTip": "Fuel and a shop in Leknes on the way through — Unstad itself has nothing.",
+          "legs": [
+            {
+              "at": "06:45",
+              "from": "Laukvik / Sandsletta",
+              "to": "Festvågtinden trailhead",
+              "km": 30,
+              "time": "35 min",
+              "note": "Trailhead is at the Henningsvær turn-off, right on the E10."
+            },
+            {
+              "at": "10:30",
+              "from": "Trailhead",
+              "to": "Henningsvær",
+              "km": 8,
+              "time": "15 min",
+              "note": "Over the bridges onto the islets. Park at the entrance — the village lanes are tight."
+            },
+            {
+              "at": "16:00",
+              "from": "Henningsvær",
+              "to": "Leknes via Valbergsveien",
+              "km": 55,
+              "time": "1h15",
+              "note": "Over the Gimsøy bridges, then take the Valberg/Stamsund backroad instead of the E10. A little beach, a pretty church, no traffic."
+            },
+            {
+              "at": "17:30",
+              "from": "Leknes",
+              "to": "Unstad beach car park",
+              "km": 25,
+              "time": "35 min",
+              "note": "Shop and fuel in Leknes first — Unstad has no shop. Then the tunnel, and left down Unstadsjøveien to the car park on the beach."
+            }
+          ]
+        },
+        "sleep": {
+          "name": "Unstad beach car park (Unstadsjøveien)",
+          "kind": "wild",
+          "priceNOK": 0,
+          "booking": "none",
+          "note": "Right on Unstadstranden, open 24 h, 4.4★. Free, and a better view than any pitch inland. <b>Check the signage on arrival</b> — Lofoten has been closing car parks to overnight campers since 2020, and a 24-h parking listing is not a camping permit. If it's signed against, Unstad Arctic Surf is 1 km up the road.",
+          "url": "https://www.google.com/maps/search/?api=1&query=68.2718202,13.582594",
+          "facilities": [
+            "Free",
+            "On the beach — north-facing, for the late light",
+            "No services: fill water and empty tanks in Leknes",
+            "Café, sauna & board hire 1 km inland at Arctic Surf"
+          ]
+        },
+        "hikes": [
+          {
+            "ref": "festvagtinden",
+            "when": "Early, 07:00–08:00",
+            "note": "Short and steep — 541 m of gain in 2.6 km, so it's straight up. From the top you look down on Henningsvær on its skerries and the whole Vestfjord. Exposed near the summit. Do it before the tour buses."
+          },
+          {
+            "name": "Heia",
+            "external": true,
+            "stats": "1.4 km · 210 m · 1–2 h · easy",
+            "when": "Tired-legs swap",
+            "note": "The smaller mountain just below Festvågtind — the guide's line is 'the same iconic view over the fishing village for half the effort'. Same trailhead.",
+            "url": "https://www.alltrails.com/trail/norway/nordland/festvagtinden-via-heiavatnet"
+          },
+          {
+            "name": "Rørvikheia",
+            "external": true,
+            "stats": "1.5 km · 300 m · 1–2 h · easy but steep, exposed",
+            "when": "At the Rørvika stop",
+            "note": "Straight up from the Rørvika car park you're already stopping at — 300 m for a spectacular look down into that turquoise water. Unmarked path, steep, but short.",
+            "url": "https://www.google.com/maps?q=R%C3%B8rvikheia+Lofoten"
+          },
+          {
+            "name": "Nonstind (Unstad)",
+            "external": true,
+            "stats": "4.5 km · 483 m · 2–3 h · easy, slightly exposed at the top",
+            "when": "Midnight sun · from camp",
+            "note": "Straight off the beach you're sleeping on — walk with the beach behind you, up past Utdalsvatnet, and the summit gives the best view back down on the surf village. The guide's point: it's a gradual incline, so you can turn back whenever and still have won.",
+            "url": "https://www.alltrails.com/trail/norway/nordland/nonstinden"
+          },
+          {
+            "name": "Saupstadtind",
+            "external": true,
+            "stats": "4 km · 367 m · 2 h · moderate, some exposure",
+            "when": "Alternative · past the tunnel",
+            "note": "Trailhead right after the Unstad tunnel. Views to Unstad, Himmeltinden and the turquoise shallows at Tangstad — and, per the guide, 'off the beaten track, so you won't have to hike in a queue'."
+          }
+        ],
+        "eat": [
+          {
+            "name": "Trevarefabrikken",
+            "kind": "cafe",
+            "price": "kr 150–300",
+            "note": "A 1948 carpentry works, now the hippest room in Lofoten. Fresh bakes, cold-pressed juice, seasonal sandwiches; wood-fired pizza in high season.",
+            "url": "https://www.trevarefabrikken.no/cafe"
+          },
+          {
+            "name": "Klatrekaféen (the Climbers’ Café)",
+            "kind": "restaurant",
+            "price": "kr 180–280",
+            "note": "Lofoten's most famous café — fishburger, bacalao, lamb stew, cinnamon buns. Lunch here after the summit.",
+            "url": "https://henningsvaer.no/en/opplevelser/klatrekafeen/"
+          },
+          {
+            "name": "Henningsvær Lysstøperi & Café",
+            "kind": "cafe",
+            "price": "kr 60–150",
+            "note": "Candle factory and café in one. Get the Lofotkake — cream and almond paste."
+          },
+          {
+            "name": "Unstad Arctic Surf café",
+            "kind": "cafe",
+            "price": "kr 60–150",
+            "note": "On the guide's cinnamon-bun list, and the only food at Unstad — 1 km inland from the car park. Buy dinner in Leknes; treat this as breakfast.",
+            "url": "https://www.unstadarcticsurf.com/"
+          }
+        ],
+        "drink": [
+          {
+            "name": "Klatrekaféen bar",
+            "kind": "bar",
+            "note": "The village's living room. Gigs and DJs most Fridays and Saturdays — and this is a Saturday."
+          },
+          {
+            "name": "Sauna + hot tub, Unstad Arctic Surf",
+            "kind": "activity",
+            "note": "Rentable even if you sleep in the car park. Sea, sauna, hot tub, beer, low sun. Ask on arrival — 10% off for Arctic Camper vans."
+          }
+        ],
+        "tips": [
+          "<b>Read the signs before you settle.</b> This is a car park, not a campsite — and Lofoten has spent five years signposting bans on exactly this. If overnight is prohibited, don't chance it: Unstad Arctic Surf is 1 km inland (email hello@unstadsurf.com · +47 970 61 201), and Brustranda Sjøcamping or Lofoten Camp are the nearest official sites.",
+          "<b>No services at the car park.</b> Fill water and empty tanks in Leknes on the way through, and buy dinner there — Unstad has a café and nothing else.",
+          "<b>Why the swap works:</b> Unstad is on the guide's midnight-sun shortlist, gives you two new summits off the doorstep (Nonstind, Saupstadtind), puts the Eggum coast path within walking distance, and starts D7 only 30 min from Haukland.",
+          "<b>What you gave up:</b> Gimsøy carried <b>Hoven</b> (368 m, the guide's favourite midnight-sun hike) and <b>Lofoten Links</b> golf. The golf was always a swap for the Bleik round rather than a second one — but if Bleik falls through, this is the round you lose with it.",
+          "<b>It's no longer a free night.</b> Lofoten has been closing lay-bys to overnight campers since 2020 — don't count on a wild pitch here. Budget kr 200, less the 10% Arctic Camper discount.",
+          "<b>Two Unstads.</b> Unstad Camping (Unstadsjøveien) is the beachfront one; Unstad Arctic Surf (Unstadsveien) is slightly inland and has the sauna, hot tub and kitchen. You want the second.",
+          "Buy dinner in Leknes. Unstad has a café and nothing else."
+        ],
+        "stops": [
+          {
+            "at": "10:15",
+            "name": "Rørvikstranda",
+            "cost": "free · at the turn-off",
+            "note": "Sits right at the E10 exit to Henningsvær, so you pass the door. Sheltered turquoise bay, light sand, toilets — and quiet, because everyone drives by. Swim after Festvågtinden.",
+            "url": "https://www.google.com/maps?q=R%C3%B8rvikstranda+Lofoten"
+          },
+          {
+            "at": "16:00",
+            "name": "Valbergsveien",
+            "cost": "free · swap · +20 min",
+            "note": "The Gimsøya → Leknes backroad instead of the E10. Quieter, a little beach, a pretty church. It moved here from D7 the moment you chose Unstad — this is the road that gets you there.",
+            "url": "https://www.google.com/maps?q=Valberg+Lofoten"
+          },
+          {
+            "at": "17:00",
+            "name": "Coop Extra / Rema, Leknes",
+            "cost": "free · on the route",
+            "note": "Unstad has no shop. This is your last chance for tonight's dinner and tomorrow's breakfast — open to 23:00.",
+            "url": "https://www.google.com/maps?q=Coop+Extra+Leknes"
+          },
+          {
+            "at": "17:15",
+            "name": "Unstad viewpoint",
+            "cost": "free · before the tunnel",
+            "note": "Just before the final tunnel there's a road on the right up to a viewpoint over the whole bay. Ten seconds off the route, and it's the shot.",
+            "url": "https://www.google.com/maps?q=Utsikt+over+Unstad"
+          },
+          {
+            "at": "19:30",
+            "name": "Unstad Arctic Surf · sauna & hot tub",
+            "kind": "detour",
+            "cost": "detour · 1 km inland",
+            "note": "Even if you sleep in the car park, they'll rent you the sauna, the hot tub, a board and a cinnamon bun. Ask when you arrive — and they give 10% to Arctic Camper vans, which is yours.",
+            "url": "https://www.unstadarcticsurf.com/"
+          }
+        ]
+      }
     },
     {
       "id": "D7",
@@ -358,14 +1115,13 @@
       "badge": "Scenic",
       "badgeClass": "scenic",
       "title": "Haukland & Uttakleiv",
-      "meta": "~45 km · 1h",
+      "meta": "~40 km · 55 min",
       "music": "Tycho — Dive",
       "blocks": [
         {
           "time": "08:30",
-          "hikeRef": "offersoykammen",
-          "prefix": "Warm up on ",
-          "text": " (or Mannen) for the panorama over the turquoise bays (~2–2.5h)."
+          "label": "Walk",
+          "text": "The Unstad → Eggum coast path from the door, as far as you fancy — or Nonstind above the beach if the legs are fresh."
         },
         {
           "time": "~13:00",
@@ -379,7 +1135,127 @@
       ],
       "noteHTML": "<b>Camping in nature:</b> vans park in the beach lot (first-come, sometimes restricted) — Uttakleiv's simple self-service pitch over the headland is the backup. Grill on the sand, not the grass.",
       "hikeRef": "offersoykammen",
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-275720/Norway/Nordland/Vestv%C3%A5g%C3%B8y/Leknes"
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-275720/Norway/Nordland/Vestv%C3%A5g%C3%B8y/Leknes",
+      "deepdive": {
+        "lead": "You wake at a surf beach 30 minutes from Haukland. The coast path to Eggum is on your doorstep; the two famous beaches are the afternoon.",
+        "route": {
+          "summary": "~40 km, 55 min. Shorter than it was — sleeping at Unstad did that.",
+          "legs": [
+            {
+              "at": "11:00",
+              "from": "Unstad",
+              "to": "Haukland beach",
+              "km": 30,
+              "time": "40 min",
+              "note": "Back through the tunnel and over to the west coast. Haukland is the turquoise one with the white sand."
+            },
+            {
+              "at": "13:30",
+              "from": "Haukland",
+              "to": "Uttakleiv",
+              "km": 4,
+              "time": "10 min",
+              "note": "Through the one-lane tunnel under the hill — or walk the coast path over it, which is better."
+            },
+            {
+              "at": "16:30",
+              "from": "Uttakleiv",
+              "to": "Offersøykammen trailhead",
+              "km": 10,
+              "time": "15 min",
+              "note": "Small roadside car park on the way back east."
+            }
+          ]
+        },
+        "sleep": {
+          "name": "Haukland · scenic night",
+          "kind": "wild",
+          "priceNOK": 0,
+          "booking": "none",
+          "note": "Designated camper parking at Haukland (paid, ~kr 200, with toilets) — or a free pitch further along. Turquoise water and the low sun straight down the bay.",
+          "facilities": [
+            "Toilets at the beach car park",
+            "Paid overnight parking",
+            "No hook-up"
+          ]
+        },
+        "hikes": [
+          {
+            "ref": "offersoykammen",
+            "when": "Late afternoon",
+            "note": "A small hill with an outsized view — Haukland and Vik beaches below you in one frame, the Vestfjord beyond. 3.7 km, 454 m, steep but short. The golden-hour hike of the trip."
+          },
+          {
+            "name": "Haukland → Uttakleiv coast path",
+            "external": true,
+            "stats": "8 km return · 229 m · 2–2.5 h",
+            "note": "The proper way between the two beaches, over the shoulder instead of through the tunnel. 4 km each way — walk out and come back over the old trade road.",
+            "url": "https://www.alltrails.com/en-gb/trail/norway/nordland/haukland-uttakleiv"
+          },
+          {
+            "name": "Veggen",
+            "external": true,
+            "stats": "3 km · 489 m · 2–3 h · moderate, not exposed",
+            "when": "Sunset · from Uttakleiv",
+            "note": "The find of the guide for tonight: 'the less known big brother of Mannen', trailhead right at the Uttakleiv car park, view down onto both Haukland and Uttakleiv, and a summit secluded by the ocean — 'ideal for sunrises, sunsets and midnight sun'. You are sleeping at Haukland. This is the one.",
+            "url": "https://www.alltrails.com/trail/norway/nordland/topptur-til-veggen"
+          },
+          {
+            "name": "Himmeltind",
+            "external": true,
+            "stats": "6.2 km · 962 m · 3–4 h · moderate",
+            "when": "The big one — only if fresh",
+            "note": "The highest mountain on Vestvågøy, from the same Haukland car park as Mannen. Honest note: with Offersøykammen and the coast path already on today, this is a swap for the whole day, not an addition. <b>Read this before you commit:</b> the guide calls it 'a relatively easy climb'. AllTrails does not — it reports extremely steep rocky upper sections with <b>fixed chains and ropes</b>, high exposure, and warns they turn treacherous when wet. Believe AllTrails. This is not a casual add-on.",
+            "url": "https://www.alltrails.com/trail/norway/nordland/haukland-himmeltindan"
+          }
+        ],
+        "eat": [
+          {
+            "name": "Beach cook-up",
+            "kind": "van",
+            "note": "Haukland has proper picnic spots. Cook at the van, eat on the sand — this is what the camper is for."
+          },
+          {
+            "name": "Himmel og Havn, Ballstad",
+            "kind": "restaurant",
+            "price": "kr 250–400",
+            "note": "Harbourside in the fishing village 20 min south. Fish soup and the day’s catch, unfussy."
+          },
+          {
+            "name": "Coop Extra Leknes",
+            "kind": "grocery",
+            "price": "kr 400–700",
+            "note": "10 min inland. The other big supermarket in Lofoten — the last cheap restock before Reine. Open to 23:00."
+          },
+          {
+            "name": "Sea-swim + coffee",
+            "kind": "van",
+            "note": "Haukland water in August is about 12 °C. It’s survivable, briefly, and the coffee after is transcendent."
+          }
+        ],
+        "drink": [
+          {
+            "name": "Van stock",
+            "kind": "van",
+            "note": "No bar out here — this is a thermos-and-a-cold-one night on the beach."
+          }
+        ],
+        "tips": [
+          "Uttakleiv is the sunset beach; Haukland is the swimming one. Do Uttakleiv late.",
+          "Uttakleiv charges for parking and enforces it. Pay at the machine.",
+          "The famous ‘Dragon’s Eye’ rock pool is at Uttakleiv — at the north end, easy to miss."
+        ],
+        "stops": [
+          {
+            "at": "08:30",
+            "name": "Unstad → Eggum coast path",
+            "kind": "detour",
+            "cost": "detour · 5.3 km one way",
+            "note": "No longer a detour by car — it starts at the beach you slept on. To the right of Unstad beach, a path runs the coast to Eggum. Walk as far as you fancy and turn back; it's the morning, not the day.",
+            "url": "https://www.google.com/maps?q=Eggum+Lofoten"
+          }
+        ]
+      }
     },
     {
       "id": "D8",
@@ -420,7 +1296,144 @@
       ],
       "noteHTML": "<b>The spot Lisa flagged:</b> surf · sauna · beach bar on the sand — and a perfect base for tomorrow's Reinebringen.",
       "hikeRef": "ryten",
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-275998/Norway/Nordland/Flakstad/Ramberg"
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-275998/Norway/Nordland/Flakstad/Ramberg",
+      "deepdive": {
+        "lead": "The hike of the trip: over the pass to a beach with no road, and a ledge to see it from.",
+        "route": {
+          "summary": "~40 km, 1h — but 5–6 hours on foot.",
+          "legs": [
+            {
+              "at": "08:00",
+              "from": "Haukland",
+              "to": "Fredvang (Torsfjord trailhead)",
+              "km": 30,
+              "time": "40 min",
+              "note": "E10 south-west, then over the Fredvang bridges. Trailhead car park is small and fills by 09:00 — paid, card only."
+            },
+            {
+              "at": "13:30",
+              "from": "Fredvang",
+              "to": "Lofoten Beach Camp, Skagsanden",
+              "km": 10,
+              "time": "15 min",
+              "note": "First-come. Get there by ~14:00 to claim a pitch."
+            }
+          ]
+        },
+        "sleep": {
+          "name": "Lofoten Beach Camp",
+          "kind": "campsite",
+          "priceNOK": 350,
+          "booking": "first-come",
+          "note": "No booking — first-come, so time the hike to be back by early afternoon. On Skagsanden beach, which is where the surfers are.",
+          "facilities": [
+            "Showers",
+            "Electric hook-up",
+            "Sauna",
+            "Surf hire on site",
+            "Beach 50 m away"
+          ]
+        },
+        "hikes": [
+          {
+            "ref": "ryten",
+            "when": "Start 08:30",
+            "note": "The full loop: over the pass to Kvalvika — a beach reachable only on foot, with the sea coming in hard — then up onto Ryten and out to the ledge above it. 7.6 km, 597 m. Boggy in the middle section, so waterproof boots. The overhang shot is at the very top; the drop is real, so don’t clown about."
+          },
+          {
+            "name": "Volandstind",
+            "external": true,
+            "stats": "4.5 km · 457 m · 1–2 h · easy, not exposed",
+            "when": "On the D8 route",
+            "note": "The pointy summit you see from the Fredvang bridge — you drive under it on the way to the trailhead. The guide calls it 'a solid alternative to Offersøykammen, which can be quite crowded'. Looks steep from below; isn't, from the back. <b>Stat clash:</b> the guide calls this easy, 1–2 h; AllTrails rates it <b>hard</b>, 5.1 km / 432 m / 2.5–3 h. Treat it as the AllTrails version and you won't be caught out.",
+            "url": "https://www.alltrails.com/trail/norway/nordland/volandstinden"
+          },
+          {
+            "name": "Flakstadtind",
+            "external": true,
+            "stats": "3 km · 484 m · 1–2 h · moderate, exposed",
+            "when": "From camp, if anything's left",
+            "note": "The trailhead is on the road to Ramberg, ~500 m from Skagsanden — your campsite. Hands-and-feet scrambly and a tropical view over Flakstad. Realistically: you'll have done six hours on Ryten. Bank it for the morning.",
+            "url": "https://www.alltrails.com/trail/norway/nordland/flakstadtinden"
+          }
+        ],
+        "eat": [
+          {
+            "name": "Kvalvika lunch",
+            "kind": "van",
+            "note": "Carry it in. Rolls, cheese, chocolate, a thermos. Eating on that beach after the pass is the memory you’re paying for."
+          },
+          {
+            "name": "Beach Camp bar & kitchen",
+            "kind": "restaurant",
+            "price": "kr 180–280",
+            "note": "Burgers, pizza, beer, right on Skagsanden. After Ryten you will not want to cook, and you won’t have to."
+          },
+          {
+            "name": "Friisgården / Joker Fredvang",
+            "kind": "grocery",
+            "note": "Small and pricey. Buy what you need in Leknes on the way through, not here."
+          }
+        ],
+        "drink": [
+          {
+            "name": "Beach Camp bar",
+            "kind": "bar",
+            "note": "Surf crowd, cold beer, the sun going down over Skagsanden. Earned."
+          },
+          {
+            "name": "Sauna",
+            "kind": "activity",
+            "note": "The site has one. After 6 hours on Ryten, book it the moment you arrive."
+          }
+        ],
+        "tips": [
+          "Start early. The Torsfjord car park is genuinely small and the roadside is enforced.",
+          "<b>Trailhead, per the guide:</b> you can go Torsfjord → Kvalvika → up to Ryten (the plan — beach first, and the better story), or straight up from <b>Innersand / Fredvang school</b>. The guide recommends the latter for <b>more parking and a more comfortable climb</b>. If the Torsfjord car park is full at 09:00, don't circle — drive to Innersand.",
+          "The Kvalvika sand blows hard — the beach is beautiful and often brutal. Take a windproof.",
+          "Skagsanden at low tide is a mirror. Bring the camera down at ~22:00."
+        ],
+        "stops": [
+          {
+            "at": "15:30",
+            "name": "Vikten · Glasshytta",
+            "kind": "detour",
+            "cost": "detour · +30 min",
+            "note": "Glassblowing in a workshop on the Flakstadøy shore. Usually shuts around 17:00, so it has to be the first stop after Ryten or not at all.",
+            "url": "https://www.google.com/maps?q=Glasshytta+Vikten+Lofoten"
+          },
+          {
+            "at": "16:45",
+            "name": "Ramberg",
+            "cost": "free · 5 min from camp",
+            "note": "The big white crescent, straight on the E10 five minutes from Beach Camp. Zero effort — walk it in the evening light.",
+            "url": "https://www.google.com/maps?q=Ramberg+Lofoten"
+          },
+          {
+            "at": "17:15",
+            "name": "Flakstad kirke",
+            "cost": "free · next door",
+            "note": "The red timber church behind Flakstad beach, same stretch of road. Two minutes, and it frames the mountains.",
+            "url": "https://www.google.com/maps?q=Flakstad+kirke+Lofoten"
+          },
+          {
+            "at": "17:45",
+            "name": "Myrland",
+            "kind": "detour",
+            "cost": "detour · +30 min",
+            "note": "Down a single-track road past the Napp tunnel. Big boulders sitting in the tideline on white sand — the one people miss.",
+            "url": "https://www.google.com/maps?q=Myrland+Lofoten"
+          },
+          {
+            "at": "19:00",
+            "name": "Nusfjord",
+            "kind": "detour",
+            "cost": "detour · +45 min · entry fee",
+            "note": "One of Norway's best-preserved fishing villages, 20 min from camp. Charges entry. Honest warning: you'll have done 6 hours on Ryten today — take one or two of these five, not all of them.",
+            "url": "https://www.google.com/maps?q=Nusfjord+Lofoten"
+          }
+        ]
+      }
     },
     {
       "id": "D9",
@@ -450,7 +1463,114 @@
       ],
       "noteHTML": "<b>Suggested stops:</b> <b>Å</b> at the very end of the E10 — turf-roofed rorbuer, ~5 km on — is an easy stroll to fold into today. For more, the <b>Reinefjord ferry</b> (park at Reine, no cars aboard) crosses to Vindstad for the easy ~1 h hike to <b>Bunes beach</b>: a full day-trip on its own, or camp wild on the dunes overnight. Book the ferry ahead in summer.",
       "hikeRef": "reinebringen",
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-272752/Norway/Nordland/Moskenes/Reine"
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-272752/Norway/Nordland/Moskenes/Reine",
+      "deepdive": {
+        "lead": "1,978 stone steps at dawn, then a slow potter down to where the road ends.",
+        "route": {
+          "summary": "~30 km, 40 min. Barely any driving — the day is the stairs and the villages.",
+          "legs": [
+            {
+              "at": "05:30",
+              "from": "Skagsanden",
+              "to": "Reine (Reinebringen trailhead)",
+              "km": 25,
+              "time": "30 min",
+              "note": "E10 south. Trailhead is right on the roadside just past Reine — parking is scarce, go early."
+            },
+            {
+              "at": "10:30",
+              "from": "Reine",
+              "to": "Å i Lofoten",
+              "km": 10,
+              "time": "15 min",
+              "note": "The end of the E10. Literally: the road stops."
+            },
+            {
+              "at": "15:00",
+              "from": "Å",
+              "to": "Moskenes Camping",
+              "km": 5,
+              "time": "10 min",
+              "note": "Booked."
+            }
+          ]
+        },
+        "sleep": {
+          "name": "Moskenes Camping",
+          "kind": "campsite",
+          "priceNOK": 400,
+          "booking": "advance-online",
+          "note": "Booked. By the Moskenes ferry quay, with the Reine peaks behind. Call ~2 days ahead to reconfirm (there’s a reminder in your calendar for 9 Aug).",
+          "facilities": [
+            "Showers",
+            "Electric hook-up",
+            "Walking distance to the quay"
+          ]
+        },
+        "hikes": [
+          {
+            "ref": "reinebringen",
+            "when": "Dawn — 06:00",
+            "note": "1,978 Sherpa-built stone steps up 448 m. It is relentless and it is worth it: the view down onto Reine, Sakrisøy and Hamnøy scattered across the fjord is the picture of Lofoten. Go at dawn — by 10:00 the steps are a queue. Steps are slick in rain and there’s no shelter."
+          },
+          {
+            "name": "Helvetestind",
+            "external": true,
+            "stats": "3.5 km · 602 m · 3–4 h · moderate, exposed",
+            "when": "Via the Vindstad ferry",
+            "note": "This upgrades the Bunes plan-B into a real day: the Reinefjord ferry from Reine (~30 min), then Helvetestind straight up from the Vindstad dock — and Bunes beach is a 45-min walk from the same jetty. Check the ferry times before you commit. The AllTrails route pairs it with Brunakseltinden: 9 km / 585 m / 3.5–4 h, rated hard. <b>The Vindstad ferry runs twice a day — one morning, one afternoon.</b> Miss it and you're sleeping on the beach (which, to be fair, is allowed).",
+            "url": "https://www.alltrails.com/trail/norway/nordland/brunakseltinden-og-helvetestinden"
+          }
+        ],
+        "eat": [
+          {
+            "name": "Anita’s Sjømat, Sakrisøy",
+            "kind": "restaurant",
+            "price": "kr 150–250",
+            "note": "The fish burger. A seafood shop-bistro in the yellow rorbu village — stockfish, smoked salmon, caviar, and a burger whose bun is baked specially at Kringla in Svolvær. No reservations, just queue. Lunch here, not dinner.",
+            "url": "https://sakrisoy.no/seafood/"
+          },
+          {
+            "name": "Bakeriet på Å",
+            "kind": "bakery",
+            "price": "kr 50–90",
+            "note": "Cinnamon buns from a wood-fired stone oven built in 1878, in a bakery from 1844. Open daily 09:00–15:00 in season. This is a pilgrimage, not a snack.",
+            "url": "https://visitlofoten.com/en/food-and-drink/cafe/the-bakery-at-a/"
+          },
+          {
+            "name": "Gammelbua, Reine",
+            "kind": "restaurant",
+            "price": "kr 350–550",
+            "note": "Dinner in an old rorbu — the classic Reine table. Stockfish, fish soup, lamb. Book ahead."
+          },
+          {
+            "name": "Coop Marked Reine",
+            "kind": "grocery",
+            "note": "Small village shop. Fine for bread and beer, not for a restock."
+          }
+        ],
+        "drink": [
+          {
+            "name": "Post-summit beer, Reine harbour",
+            "kind": "bar",
+            "note": "You climbed 1,978 steps before breakfast. Sit on the water and enjoy it."
+          }
+        ],
+        "tips": [
+          "Reinebringen at 06:00 is a different mountain from Reinebringen at 10:00. Set the alarm.",
+          "The Reinefjord ferry to Vindstad (for Bunes beach) leaves from Reine — a fine plan B if the summit is clouded in.",
+          "Å is the last village on the road and a working museum. The bakery closes at 15:00 sharp."
+        ],
+        "stops": [
+          {
+            "at": "13:00",
+            "name": "Sørvågen",
+            "cost": "free · on the way to Å",
+            "note": "Sits between Reine and Å, so you drive through it twice regardless. Stop once.",
+            "url": "https://www.google.com/maps?q=S%C3%B8rv%C3%A5gen+Lofoten"
+          }
+        ]
+      }
     },
     {
       "id": "D10",
@@ -477,7 +1597,74 @@
           "text": "Find a scenic, free pitch near Narvik or Bjerkvik for a last quiet night by the water — one final cast."
         }
       ],
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-283156/Norway/Nordland/Narvik/Narvik"
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-283156/Norway/Nordland/Narvik/Narvik",
+      "deepdive": {
+        "lead": "The long one. Off the islands, back along the E10, and one last quiet night on the water.",
+        "route": {
+          "summary": "~290 km, 4h30 — the biggest drive of the trip. Cue the albums.",
+          "legs": [
+            {
+              "at": "09:00",
+              "from": "Moskenes",
+              "to": "Svolvær",
+              "km": 130,
+              "time": "2h",
+              "note": "Back up the whole archipelago on the E10. Last look at everything."
+            },
+            {
+              "at": "11:30",
+              "from": "Svolvær",
+              "to": "Bjerkvik / Narvik",
+              "km": 160,
+              "time": "2h30",
+              "note": "Over the Lofast bridges and out onto the mainland — the moment the peaks let go."
+            }
+          ],
+          "driveTip": "Fuel in Svolvær or Leknes. Long empty stretches on the Lofast."
+        },
+        "sleep": {
+          "name": "Near Narvik / Bjerkvik · scenic night",
+          "kind": "wild",
+          "priceNOK": 0,
+          "booking": "none",
+          "note": "A free, scenic fjord-side pitch. Quiet, still water, one final cast.",
+          "facilities": [
+            "Free",
+            "No services — empty and fill in Svolvær before leaving"
+          ]
+        },
+        "hikes": [],
+        "eat": [
+          {
+            "name": "Last Lofoten shop, Svolvær",
+            "kind": "grocery",
+            "note": "Rema 1000 on the way out. Buy dinner and breakfast here — the E10 east has very little."
+          },
+          {
+            "name": "Roadside cook-up",
+            "kind": "van",
+            "note": "Fjord lay-by, stove out, whatever’s left in the fridge. Fewer ingredients, better view."
+          },
+          {
+            "name": "Narvik town",
+            "kind": "restaurant",
+            "price": "kr 250–400",
+            "note": "If you’d rather not cook: Narvik has ordinary, decent restaurants and a working-town feel after two weeks of villages."
+          }
+        ],
+        "drink": [
+          {
+            "name": "Last cast, last beer",
+            "kind": "van",
+            "note": "Line in the water, beer in hand, sun refusing to set. Close the loop."
+          }
+        ],
+        "tips": [
+          "Break it. A Svolvær viewpoint and one fjord stop turn a slog into a drive.",
+          "This is the day the trip changes gear — don’t fight it, put on the long albums.",
+          "Watch for tunnels and reindeer on the Lofast; both appear without warning."
+        ]
+      }
     },
     {
       "id": "D11",
@@ -503,7 +1690,76 @@
           "text": "Empty tanks, refuel and repack so the last morning is clean."
         }
       ],
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-305409/Norway/Troms/Troms%C3%B8/Troms%C3%B8"
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-305409/Norway/Troms/Troms%C3%B8/Troms%C3%B8",
+      "deepdive": {
+        "lead": "North along the fjords with the Lyngen Alps across the water, and then the tidy-up.",
+        "route": {
+          "summary": "~250 km, 4h. Easy, spectacular, unhurried.",
+          "legs": [
+            {
+              "at": "09:00",
+              "from": "Narvik / Bjerkvik",
+              "to": "Nordkjosbotn",
+              "km": 150,
+              "time": "2h15",
+              "note": "E6 north. Long fjord views the whole way."
+            },
+            {
+              "at": "11:30",
+              "from": "Nordkjosbotn",
+              "to": "Tromsø",
+              "km": 100,
+              "time": "1h30",
+              "note": "E8 with the Lyngen Alps jagged across the fjord to your right — the best-value scenery of any drive on the trip."
+            }
+          ]
+        },
+        "sleep": {
+          "name": "Tromsø Lodge & Camping",
+          "kind": "campsite",
+          "priceNOK": 450,
+          "booking": "advance-online",
+          "note": "Booked. On the mainland side, ~10 min from the centre. The practical last night: services, showers, and close to the depot.",
+          "url": "https://tromsolodge.no/",
+          "facilities": [
+            "Electric hook-up",
+            "Showers",
+            "Laundry",
+            "Service point for tanks",
+            "Bus to town"
+          ]
+        },
+        "hikes": [],
+        "eat": [
+          {
+            "name": "Coffee-and-photo stops on the E8",
+            "kind": "van",
+            "note": "Half a dozen lay-bys with a Lyngen view. Take three of them."
+          },
+          {
+            "name": "Last van dinner",
+            "kind": "van",
+            "note": "Cook out whatever’s left — the fridge has to be empty for the handover anyway."
+          },
+          {
+            "name": "Or: back into Tromsø",
+            "kind": "restaurant",
+            "note": "Bus in from the campsite for a proper last supper. Fiskekompaniet if you skipped it on night one."
+          }
+        ],
+        "drink": [
+          {
+            "name": "Campsite last night",
+            "kind": "van",
+            "note": "The one where you look at the photos."
+          }
+        ],
+        "tips": [
+          "Do the tidy-up tonight, not tomorrow: empty grey and black tanks, refuel to full, repack, sweep out.",
+          "The van must go back full of fuel — the depot charges a premium otherwise.",
+          "Check the site for anything left in lockers, under the bed, in the awning."
+        ]
+      }
     },
     {
       "id": "D12",
@@ -536,7 +1792,67 @@
         }
       ],
       "noteHTML": "<b>Comfortable:</b> the 10:00 drop leaves ~5 h before the flight.",
-      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-305409/Norway/Troms/Troms%C3%B8/Troms%C3%B8"
+      "weatherUrl": "https://www.yr.no/en/forecast/daily-table/1-305409/Norway/Troms/Troms%C3%B8/Troms%C3%B8",
+      "deepdive": {
+        "lead": "Van back at 10:00, flight at 15:00. Enough slack to not feel it.",
+        "route": {
+          "summary": "Depot → airport, ~25 min. Nothing else to drive.",
+          "legs": [
+            {
+              "at": "09:30",
+              "from": "Tromsø Lodge",
+              "to": "Arctic Campers, Kvaløysletta",
+              "km": 15,
+              "time": "25 min",
+              "note": "Drop 10:00. Full tank, empty tanks, clean-ish."
+            },
+            {
+              "at": "10:30",
+              "from": "Kvaløysletta",
+              "to": "Tromsø airport (TOS)",
+              "km": 10,
+              "time": "20 min",
+              "note": "Transfer via town if you want a last harbour hour."
+            }
+          ]
+        },
+        "sleep": {
+          "name": "Home",
+          "kind": "none",
+          "note": "Brussels by 19:50."
+        },
+        "hikes": [],
+        "eat": [
+          {
+            "name": "Last camp coffee",
+            "kind": "van",
+            "note": "08:30, outside, in the cold. The proper way to end it."
+          },
+          {
+            "name": "Harbour stroll + a bun",
+            "kind": "cafe",
+            "price": "kr 50–120",
+            "note": "The drop leaves ~5 h before the flight. Kaffebønna on the harbour, one last pastry, watch the boats."
+          },
+          {
+            "name": "Airport",
+            "kind": "cafe",
+            "note": "TOS is small and expensive. Eat in town first."
+          }
+        ],
+        "drink": [
+          {
+            "name": "One for the road",
+            "kind": "bar",
+            "note": "Ølhallen opens at 11:00 if you want a bookend to night one."
+          }
+        ],
+        "tips": [
+          "Fly TOS → Copenhagen → Brussels (SK 4453 / 0597), home 19:50.",
+          "Duty-free on the way out is worth it — the aquavit is genuinely better bought here.",
+          "Photos: back them up before you fly. Two weeks of Lofoten on one SD card is a bad plan."
+        ]
+      }
     }
   ],
   "stops": [
@@ -573,12 +1889,12 @@
       "note": "Morning ferry to Andøya; beach and mackerel fishing at Bleik."
     },
     {
-      "key": "sortland",
-      "label": "Sortland · N4",
+      "key": "austvagoy",
+      "label": "Austvågøy · N4",
       "type": "scenic",
-      "lat": 68.696,
-      "lng": 15.41,
-      "note": "A slow morning on Andøya, then a scenic Vesterålen night."
+      "lat": 68.348,
+      "lng": 14.606,
+      "note": "Skip the Vesterålen night: cross into Lofoten a day early and sleep near Laukvik."
     },
     {
       "key": "svolvaer",
@@ -589,12 +1905,12 @@
       "note": "Ferry into Lofoten and hike Fløya & Djevelporten above town."
     },
     {
-      "key": "gimsoy",
-      "label": "Gimsøy · N6",
+      "key": "unstad",
+      "label": "Unstad · N6",
       "type": "scenic",
-      "lat": 68.29,
-      "lng": 14.1,
-      "note": "Early Festvågtinden, then galleries and coffee in Henningsvær."
+      "lat": 68.2718,
+      "lng": 13.5826,
+      "note": "Beachfront car park at Unstadsjøveien — open 24 h, right on Unstadstranden."
     },
     {
       "key": "haukland",
@@ -670,9 +1986,10 @@
       "name": "Fløya & Djevelporten",
       "url": "https://www.alltrails.com/en-gb/trail/norway/nordland/svolvaer-floya-djevelporten",
       "distanceKm": 4.2,
-      "elevationM": 534,
+      "elevationM": 590,
       "difficulty": "Hard",
-      "rating": 4.8
+      "rating": 4.8,
+      "guideM": "590 masl · exposed, narrow summit"
     },
     {
       "ref": "festvagtinden",
@@ -680,7 +1997,7 @@
       "name": "Festvågtinden",
       "url": "https://www.alltrails.com/en-gb/trail/norway/nordland/festvagtinden",
       "distanceKm": 2.7,
-      "elevationM": 500,
+      "elevationM": 541,
       "difficulty": "Hard",
       "rating": 4.6
     },
@@ -689,9 +2006,9 @@
       "day": "D7",
       "name": "Offersøykammen",
       "url": "https://www.alltrails.com/en-gb/trail/norway/nordland/offersoykammen",
-      "distanceKm": 3.7,
-      "elevationM": 454,
-      "difficulty": "Moderate",
+      "distanceKm": 3.0,
+      "elevationM": 436,
+      "difficulty": "Easy",
       "rating": 4.7
     },
     {
@@ -699,9 +2016,9 @@
       "day": "D8",
       "name": "Ryten",
       "url": "https://www.alltrails.com/en-gb/trail/norway/nordland/innersand-ryten",
-      "distanceKm": 7.6,
-      "elevationM": 597,
-      "difficulty": "Hard",
+      "distanceKm": 7.0,
+      "elevationM": 543,
+      "difficulty": "Moderate",
       "rating": 4.8
     },
     {
@@ -709,9 +2026,9 @@
       "day": "D9",
       "name": "Reinebringen",
       "url": "https://www.alltrails.com/en-gb/trail/norway/nordland/reinebringen",
-      "distanceKm": 6,
-      "elevationM": 523,
-      "difficulty": "Hard",
+      "distanceKm": 5.0,
+      "elevationM": 448,
+      "difficulty": "Moderate",
       "rating": 4.8
     }
   ],
@@ -722,9 +2039,8 @@
       "url": "https://campmefjord.no",
       "email": "firmapost@campmefjord.no",
       "booking": "advance-online",
-      "note": "Booked ✓ ref 2008 · Camp 1 spot 06 · kr 400 · check-in from 14:00.",
-      "booked": true,
-      "confirmUrl": "https://mail.google.com/mail/u/0/#all/19f5bc5834b81544"
+      "note": "Booked ✓ · kr 400 · check-in from 14:00.",
+      "booked": true
     },
     {
       "day": "D3",
@@ -740,9 +2056,8 @@
       "url": "https://camping-lofoten.no",
       "email": "sandsletta@camping-lofoten.com",
       "booking": "advance-online",
-      "note": "Booked ✓ & paid · Campcation #17839508906 · pitch w/ electricity · kr 450.",
-      "booked": true,
-      "confirmUrl": "https://mail.google.com/mail/u/0/#all/19f5bc26391b5d59"
+      "note": "Booked ✓ & paid · Campcation · pitch w/ electricity · kr 450.",
+      "booked": true
     },
     {
       "day": "D8",
@@ -785,7 +2100,7 @@
       "note": "Catch the ~11:00 (arrive Andenes ~12:40). Be in the 08:30 queue."
     },
     {
-      "day": "D5",
+      "day": "D4",
       "route": "Melbu–Fiskebøl",
       "operator": "Torghatten Nord",
       "season": "Year-round",
@@ -816,7 +2131,7 @@
           {
             "nok": 30123,
             "cat": "Camper",
-            "label": "Camper · all-in, paid (#TOS12792)",
+            "label": "Camper · all-in, paid",
             "sub": "incl. Golden day, CV insurance, kit, service & toll fee",
             "paid": true
           },
@@ -875,6 +2190,14 @@
       {
         "group": "Activities · tick to include",
         "items": [
+          {
+            "nok": 900,
+            "cat": "Activities",
+            "label": "Midnight golf, Bleik × 2",
+            "sub": "green fee kr 250 pp (9 holes) + clubs kr 200 a set",
+            "toggle": true,
+            "on": true
+          },
           {
             "nok": 1000,
             "cat": "Activities",
@@ -963,6 +2286,14 @@
       "textHTML": "A ~3 h guided paddle under the granite walls, with a free sauna after — a perfect Reine afternoon. <a href=\"https://reinepaddling.trekksoft.com/en\" target=\"_blank\" rel=\"noopener\">reinepaddling.no</a>",
       "url": "https://reinepaddling.trekksoft.com/en",
       "linkText": "reinepaddling.no"
+    },
+    {
+      "title": "Midnight golf, Bleik",
+      "tag": "Day 3 · Bleik",
+      "tint": true,
+      "textHTML": "Nine holes on the links between the mountains and Bleik beach, teed off at 22:30 with the sun going down at 22:49 and never getting properly dark. Green fee kr 250 (9) / kr 300 (18) / kr 500 for 24 hours; clubs kr 200 a set, so bring nothing but a jumper. The clubhouse sits a few hundred metres from your pitch. <a href=\"https://www.leadingcourses.com/clubs/europe+norway+nordland/bleik-golfstr%C3%B8msbane-og-h%C3%B8ken-golfklubb\" target=\"_blank\" rel=\"noopener\">Bleik Golfstrømbane</a> · +47 974 30 312 <b>Status:</b> WhatsApp enquiry sent 14 Jul 2026 — tee time + a left-handed and a right-handed rental set. Awaiting reply.",
+      "url": "https://www.leadingcourses.com/clubs/europe+norway+nordland/bleik-golfstr%C3%B8msbane-og-h%C3%B8ken-golfklubb",
+      "linkText": "Bleik Golfstrømbane"
     }
   ],
   "prep": {
@@ -1069,16 +2400,17 @@
   },
   "pageSubtitles": {
     "overview": "Tromsø → Lofoten · 1–14 Aug 2026",
-    "route": "13 nights · ~1,400 km loop",
+    "route": "13 nights · ~1,500 km loop",
     "budget": "Live estimate · €1 ≈ 11.2 NOK",
     "do": "Activities · fishing",
     "prep": "Provision · packing",
-    "road": "Fuel · weather · emergency"
+    "road": "Fuel · weather · emergency",
+    "deep": "One day, in full"
   },
   "overview": {
     "mapTitle": "The loop",
     "mapSub": "Tromsø → Senja → Vesterålen → Lofoten",
-    "fallbackMapSVG": "<svg class=\"loopmap\" viewBox=\"0 0 800 520\" role=\"img\" aria-label=\"Map of the Tromsø to Lofoten camper loop\">\n              <g fill=\"none\">\n                <path d=\"M30,476 C200,440 360,500 540,448 690,406 760,448 800,430\" stroke=\"#163840\" stroke-width=\"1\"/>\n                <path d=\"M10,330 C160,292 320,356 470,306 630,256 730,300 800,272\" stroke=\"#143138\" stroke-width=\"1\"/>\n                <path d=\"M40,190 C180,160 320,210 470,176 620,146 720,180 800,158\" stroke=\"#122d34\" stroke-width=\"1\"/>\n              </g>\n              <polyline points=\"72,449 566,333 740,60\" fill=\"none\" stroke=\"#F0A93C\" stroke-width=\"2\" stroke-dasharray=\"2 7\" stroke-linecap=\"round\" opacity=\"0.5\"/>\n              <text x=\"655\" y=\"178\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#F0A93C\" opacity=\"0.75\">↩ return · E10 + E6</text>\n              <polyline points=\"740,60 558,92 517,126\" fill=\"none\" stroke=\"#F0A93C\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n              <polyline points=\"413,140 336,275 267,320\" fill=\"none\" stroke=\"#F0A93C\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n              <polyline points=\"251,352 240,381 187,361 125,392 91,415 72,449 60,460\" fill=\"none\" stroke=\"#F0A93C\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n              <line x1=\"517\" y1=\"126\" x2=\"413\" y2=\"140\" stroke=\"#74C0C9\" stroke-width=\"2.4\" stroke-dasharray=\"3 6\" stroke-linecap=\"round\"/>\n              <line x1=\"267\" y1=\"320\" x2=\"251\" y2=\"352\" stroke=\"#74C0C9\" stroke-width=\"2.4\" stroke-dasharray=\"3 6\" stroke-linecap=\"round\"/>\n              <g><line x1=\"44\" y1=\"66\" x2=\"44\" y2=\"42\" stroke=\"#9CB1B3\" stroke-width=\"1.4\"/><path d=\"M44,38 l-3.4,8 6.8,0 z\" fill=\"#9CB1B3\"/><text x=\"44\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#9CB1B3\">N</text></g>\n              <g>\n                <circle cx=\"558\" cy=\"92\" r=\"5.5\" fill=\"#F0A93C\"/><circle cx=\"413\" cy=\"140\" r=\"5.5\" fill=\"#F0A93C\"/>\n                <circle cx=\"240\" cy=\"381\" r=\"5.5\" fill=\"#F0A93C\"/><circle cx=\"125\" cy=\"392\" r=\"5.5\" fill=\"#0B232A\" stroke=\"#74C0C9\" stroke-width=\"2.4\"/>\n                <circle cx=\"72\" cy=\"449\" r=\"5.5\" fill=\"#F0A93C\"/>\n                <circle cx=\"517\" cy=\"126\" r=\"5.5\" fill=\"#0B232A\" stroke=\"#74C0C9\" stroke-width=\"2.4\"/>\n                <circle cx=\"336\" cy=\"275\" r=\"5.5\" fill=\"#0B232A\" stroke=\"#74C0C9\" stroke-width=\"2.4\"/>\n                <circle cx=\"187\" cy=\"361\" r=\"5.5\" fill=\"#0B232A\" stroke=\"#74C0C9\" stroke-width=\"2.4\"/>\n                <circle cx=\"91\" cy=\"415\" r=\"5.5\" fill=\"#F0A93C\"/>\n                <circle cx=\"566\" cy=\"333\" r=\"5.5\" fill=\"#0B232A\" stroke=\"#74C0C9\" stroke-width=\"2.4\"/>\n                <circle cx=\"267\" cy=\"320\" r=\"3.6\" fill=\"#74C0C9\"/><circle cx=\"251\" cy=\"352\" r=\"3.6\" fill=\"#74C0C9\"/>\n                <circle cx=\"60\" cy=\"460\" r=\"3.2\" fill=\"#F0A93C\"/>\n                <circle cx=\"740\" cy=\"60\" r=\"9\" fill=\"none\" stroke=\"#F0A93C\" stroke-width=\"2.6\"/><circle cx=\"740\" cy=\"60\" r=\"3.5\" fill=\"#F0A93C\"/>\n              </g>\n              <g font-family=\"sans-serif\" font-size=\"12\" fill=\"#cfdada\">\n                <text x=\"730\" y=\"50\" text-anchor=\"end\">Tromsø · start / end</text>\n                <text x=\"558\" y=\"78\" text-anchor=\"middle\">Senja · N1</text>\n                <text x=\"515\" y=\"116\" text-anchor=\"middle\">Gryllefjord · N2</text>\n                <text x=\"404\" y=\"158\" text-anchor=\"end\">Andenes / Bleik · N3</text>\n                <text x=\"350\" y=\"272\" text-anchor=\"start\">Sortland · N4</text>\n                <text x=\"252\" y=\"378\" text-anchor=\"start\">Svolvær · N5</text>\n                <text x=\"187\" y=\"347\" text-anchor=\"middle\">Gimsøy · N6</text>\n                <text x=\"116\" y=\"396\" text-anchor=\"end\">Haukland · N7</text>\n                <text x=\"104\" y=\"414\" text-anchor=\"start\">Beach Camp · N8</text>\n                <text x=\"84\" y=\"451\" text-anchor=\"start\">Reine · N9</text>\n                <text x=\"580\" y=\"331\" text-anchor=\"start\">Narvik · N10</text>\n                <text x=\"278\" y=\"314\" text-anchor=\"start\" font-size=\"10.5\" fill=\"#9CB1B3\">⛴ Melbu</text>\n                <text x=\"244\" y=\"346\" text-anchor=\"end\" font-size=\"10.5\" fill=\"#9CB1B3\">Fiskebøl</text>\n                <text x=\"71\" y=\"468\" text-anchor=\"start\" font-size=\"10.5\" fill=\"#9CB1B3\">Å</text>\n              </g>\n            </svg>",
+    "fallbackMapSVG": "<svg class=\"loopmap\" viewBox=\"0 0 800 520\" role=\"img\" aria-label=\"Map of the Tromsø to Lofoten camper loop\">\n              <g fill=\"none\">\n                <path d=\"M30,476 C200,440 360,500 540,448 690,406 760,448 800,430\" stroke=\"#163840\" stroke-width=\"1\"/>\n                <path d=\"M10,330 C160,292 320,356 470,306 630,256 730,300 800,272\" stroke=\"#143138\" stroke-width=\"1\"/>\n                <path d=\"M40,190 C180,160 320,210 470,176 620,146 720,180 800,158\" stroke=\"#122d34\" stroke-width=\"1\"/>\n              </g>\n              <polyline points=\"72,449 566,333 740,60\" fill=\"none\" stroke=\"#F0A93C\" stroke-width=\"2\" stroke-dasharray=\"2 7\" stroke-linecap=\"round\" opacity=\"0.5\"/>\n              <text x=\"655\" y=\"178\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#F0A93C\" opacity=\"0.75\">↩ return · E10 + E6</text>\n              <polyline points=\"740,60 558,92 517,126\" fill=\"none\" stroke=\"#F0A93C\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n              <polyline points=\"413,140 336,275 267,320\" fill=\"none\" stroke=\"#F0A93C\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n              <polyline points=\"251,352 240,381 187,361 125,392 91,415 72,449 60,460\" fill=\"none\" stroke=\"#F0A93C\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n              <line x1=\"517\" y1=\"126\" x2=\"413\" y2=\"140\" stroke=\"#74C0C9\" stroke-width=\"2.4\" stroke-dasharray=\"3 6\" stroke-linecap=\"round\"/>\n              <line x1=\"267\" y1=\"320\" x2=\"251\" y2=\"352\" stroke=\"#74C0C9\" stroke-width=\"2.4\" stroke-dasharray=\"3 6\" stroke-linecap=\"round\"/>\n              <g><line x1=\"44\" y1=\"66\" x2=\"44\" y2=\"42\" stroke=\"#9CB1B3\" stroke-width=\"1.4\"/><path d=\"M44,38 l-3.4,8 6.8,0 z\" fill=\"#9CB1B3\"/><text x=\"44\" y=\"80\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#9CB1B3\">N</text></g>\n              <g>\n                <circle cx=\"558\" cy=\"92\" r=\"5.5\" fill=\"#F0A93C\"/><circle cx=\"413\" cy=\"140\" r=\"5.5\" fill=\"#F0A93C\"/>\n                <circle cx=\"240\" cy=\"381\" r=\"5.5\" fill=\"#F0A93C\"/><circle cx=\"125\" cy=\"392\" r=\"5.5\" fill=\"#0B232A\" stroke=\"#74C0C9\" stroke-width=\"2.4\"/>\n                <circle cx=\"72\" cy=\"449\" r=\"5.5\" fill=\"#F0A93C\"/>\n                <circle cx=\"517\" cy=\"126\" r=\"5.5\" fill=\"#0B232A\" stroke=\"#74C0C9\" stroke-width=\"2.4\"/>\n                <circle cx=\"336\" cy=\"275\" r=\"5.5\" fill=\"#0B232A\" stroke=\"#74C0C9\" stroke-width=\"2.4\"/>\n                <circle cx=\"187\" cy=\"361\" r=\"5.5\" fill=\"#0B232A\" stroke=\"#74C0C9\" stroke-width=\"2.4\"/>\n                <circle cx=\"91\" cy=\"415\" r=\"5.5\" fill=\"#F0A93C\"/>\n                <circle cx=\"566\" cy=\"333\" r=\"5.5\" fill=\"#0B232A\" stroke=\"#74C0C9\" stroke-width=\"2.4\"/>\n                <circle cx=\"267\" cy=\"320\" r=\"3.6\" fill=\"#74C0C9\"/><circle cx=\"251\" cy=\"352\" r=\"3.6\" fill=\"#74C0C9\"/>\n                <circle cx=\"60\" cy=\"460\" r=\"3.2\" fill=\"#F0A93C\"/>\n                <circle cx=\"740\" cy=\"60\" r=\"9\" fill=\"none\" stroke=\"#F0A93C\" stroke-width=\"2.6\"/><circle cx=\"740\" cy=\"60\" r=\"3.5\" fill=\"#F0A93C\"/>\n              </g>\n              <g font-family=\"sans-serif\" font-size=\"12\" fill=\"#cfdada\">\n                <text x=\"730\" y=\"50\" text-anchor=\"end\">Tromsø · start / end</text>\n                <text x=\"558\" y=\"78\" text-anchor=\"middle\">Senja · N1</text>\n                <text x=\"515\" y=\"116\" text-anchor=\"middle\">Gryllefjord · N2</text>\n                <text x=\"404\" y=\"158\" text-anchor=\"end\">Andenes / Bleik · N3</text>\n                <text x=\"350\" y=\"272\" text-anchor=\"start\">Austvågøy · N4</text>\n                <text x=\"252\" y=\"378\" text-anchor=\"start\">Svolvær · N5</text>\n                <text x=\"187\" y=\"347\" text-anchor=\"middle\">Unstad · N6</text>\n                <text x=\"116\" y=\"396\" text-anchor=\"end\">Haukland · N7</text>\n                <text x=\"104\" y=\"414\" text-anchor=\"start\">Beach Camp · N8</text>\n                <text x=\"84\" y=\"451\" text-anchor=\"start\">Reine · N9</text>\n                <text x=\"580\" y=\"331\" text-anchor=\"start\">Narvik · N10</text>\n                <text x=\"278\" y=\"314\" text-anchor=\"start\" font-size=\"10.5\" fill=\"#9CB1B3\">⛴ Melbu</text>\n                <text x=\"244\" y=\"346\" text-anchor=\"end\" font-size=\"10.5\" fill=\"#9CB1B3\">Fiskebøl</text>\n                <text x=\"71\" y=\"468\" text-anchor=\"start\" font-size=\"10.5\" fill=\"#9CB1B3\">Å</text>\n              </g>\n            </svg>",
     "splitNote": "Camper, flights & the Tromsø stay are locked in; the rest flexes with what you do (set it on the Budget page).",
     "rail": [
       {
@@ -1111,31 +2443,31 @@
       },
       {
         "day": "D4",
-        "stop": "sortland",
+        "stop": "austvagoy",
         "dot": "scenic",
-        "title": "Andøya → Sortland",
-        "sub": "A slow morning on Andøya, then a scenic Vesterålen night."
+        "title": "Andøya → into Lofoten",
+        "sub": "Skip the Sortland night — cross the Melbu ferry and sleep in Lofoten."
       },
       {
         "day": "D5",
         "stop": "svolvaer",
         "dot": "camp",
-        "title": "Into Lofoten · Svolvær",
-        "sub": "Ferry into Lofoten and hike Fløya & Djevelporten above town."
+        "title": "Fløya · Svolvær",
+        "sub": "A slow gained morning, then Fløya & Djevelporten above town."
       },
       {
         "day": "D6",
-        "stop": "gimsoy",
+        "stop": "unstad",
         "dot": "scenic",
-        "title": "Festvågtind · Henningsvær",
-        "sub": "Early Festvågtinden, then galleries and coffee in Henningsvær."
+        "title": "Festvågtind → Unstad",
+        "sub": "Festvågtinden and Henningsvær, then west to the beach car park at Unstad."
       },
       {
         "day": "D7",
         "stop": "haukland",
         "dot": "scenic",
         "title": "Haukland & Uttakleiv",
-        "sub": "A short summit, then the Haukland–Uttakleiv beach walk."
+        "sub": "Coast path to Eggum from the door, then Haukland, Uttakleiv & Offersøykammen."
       },
       {
         "day": "D8",
@@ -1193,16 +2525,16 @@
         3.75,
         1.5,
         0.4,
-        1.75,
-        2,
-        1,
-        1,
+        3.25,
+        1.0,
+        2.0,
+        0.9,
         1,
         0.67,
         4.5,
         4
       ],
-      "note": "D3 & D5 add a ferry on top; D1, D10 & D11 are the long hauls."
+      "note": "D3 & D4 add a ferry on top; D1, D10 & D11 are the long hauls."
     },
     "hike": {
       "labels": [
@@ -1255,7 +2587,7 @@
       ],
       [
         "Book",
-        "Camp Mefjord booked ✓ (ref 2008, spot 06) — check-in from 14:00"
+        "Camp Mefjord booked ✓ — check-in from 14:00"
       ]
     ],
     [
@@ -1292,34 +2624,42 @@
       [
         "Book · queue",
         "Midnattsol takes no pitch bookings — first-come, arrive early · Ferry pay-on-board ~kr 1,985 (6–8 m) · be in the 08:30 queue for 11:00 · puffin ~kr 500 pp"
+      ],
+      [
+        "Golf",
+        "<a href=\"https://www.google.com/maps?q=Bleik+Golfstr%C3%B8mbane\" target=\"_blank\" rel=\"noopener\"><b>Bleik Golfstrømbane</b></a> · 22:30 tee-off · kr 250 pp + kr 200 clubs · <b>enquiry sent 14 Jul (WhatsApp) — awaiting reply</b>"
       ]
     ],
     [
       [
         "Sleep",
-        "Scenic spot near Sortland · <b>free</b>"
+        "Scenic pitch near <b>Laukvik, Austvågøy</b> · <b>free</b> — a Lofoten night, gained"
       ],
       [
         "Fuel · shop",
-        "Resupply + diesel in Sortland"
+        "Diesel + the big Coop Extra restock in Sortland (on the route)"
+      ],
+      [
+        "Ferry",
+        "Melbu–Fiskebøl · ~25 min · roughly hourly · pay on board, no booking"
       ],
       [
         "BBQ",
-        "Bring-your-own — gas or grill on gravel/shore"
+        "Bring-your-own — gas or grill at the pitch"
       ],
       [
         "Book",
-        "Nothing fixed — a free morning on Andøya before the drive south"
+        "Nothing fixed. Whale safari from Andenes is the one optional call"
       ]
     ],
     [
       [
         "Sleep",
-        "<a href=\"https://camping-lofoten.no\" target=\"_blank\" rel=\"noopener\"><b>Sandsletta Camping</b></a> · kr 450 · booked ✓"
+        "<a href=\"https://camping-lofoten.no\" target=\"_blank\" rel=\"noopener\"><b>Sandsletta Camping</b></a> · kr 450 · booked ✓ <b>(date unchanged)</b>"
       ],
       [
         "Fuel · shop",
-        "Diesel/shop in Sortland or Svolvær"
+        "Diesel/shop in Svolvær"
       ],
       [
         "BBQ",
@@ -1327,7 +2667,7 @@
       ],
       [
         "Book",
-        "Sandsletta booked ✓ & paid (Campcation #17839508906) · Melbu–Fiskebøl ferry pay on board, ~hourly"
+        "Sandsletta booked ✓ & paid · no ferry today — you crossed yesterday"
       ],
       [
         "Coffee &amp; extras",
@@ -1337,23 +2677,23 @@
     [
       [
         "Sleep",
-        "Scenic spot near Gimsøy/Henningsvær · <b>free</b>"
+        "<a href=\"https://www.google.com/maps/search/?api=1&query=68.2718202,13.582594\" target=\"_blank\" rel=\"noopener\"><b>Unstad beach car park</b></a>, Unstadsjøveien · <b>free</b> · open 24 h — <b>check the signage</b>"
       ],
       [
         "Fuel · shop",
-        "Top up in Svolvær; small shops in Henningsvær"
+        "Leknes on the way through — <b>Unstad has no shop</b>"
       ],
       [
         "BBQ",
-        "Bring-your-own — beach/rock by the sea"
+        "Shared kitchen on site ✓ · sauna + hot tub"
       ],
       [
         "Book",
-        "Nothing to book — free scenic pitch on Gimsøy"
+        "Nothing to book. Fallback if it's signed against: Unstad Arctic Surf, 1 km inland (hello@unstadsurf.com · +47 970 61 201)"
       ],
       [
-        "Coffee &amp; extras",
-        "<a href=\"https://www.google.com/maps?q=Trevarefabrikken+Henningsv%C3%A6r\" target=\"_blank\" rel=\"noopener\">Trevarefabrikken</a> in Henningsvær — hip café with weekend brunch and pizza, and a sauna with a big ocean-view window; grab a bun at <a href=\"https://www.google.com/maps?q=Lysst%C3%B8periet+Henningsv%C3%A6r\" target=\"_blank\" rel=\"noopener\">Lysstøperiet</a>. On the water, a RIB out with <a href=\"https://www.google.com/maps?q=Lofoten+Opplevelser+Henningsv%C3%A6r\" target=\"_blank\" rel=\"noopener\">Lofoten Opplevelser</a> hunting sea eagles and orcas. On Gimsøy, <a href=\"https://www.google.com/maps?q=Hov+G%C3%A5rd+Gims%C3%B8y+Lofoten\" target=\"_blank\" rel=\"noopener\">Hov Gård</a>’s barrel sauna sits right on the beach — and climbers can take on <a href=\"https://www.google.com/maps?q=Svolv%C3%A6rgeita+Henningsv%C3%A6r\" target=\"_blank\" rel=\"noopener\">Svolværgeita</a> with a Henningsvær guide.<span class=\"src\">— from @helenemoo’s Lofoten guide</span>"
+        "Route",
+        "Valbergsveien backroad (Gimsøya → Leknes) instead of the E10"
       ]
     ],
     [
@@ -1560,12 +2900,16 @@
             14.659
           ],
           [
+            68.348,
+            14.606
+          ],
+          [
             68.234,
             14.561
           ],
           [
-            68.323,
-            14.1
+            68.2718,
+            13.5826
           ],
           [
             68.198,
@@ -1608,5 +2952,6 @@
   "activityExtrasHTML": "<div class=\"card cool mt\"><h3 style=\"color:var(--glacier)\">Free &amp; unforgettable</h3>\n        <ul>\n          <li><b>A \"midnight\" summit</b> — Reinebringen or Festvågtind at 21:00–23:00 for golden light and an empty trail.</li>\n          <li><b>Sauna + sea dip</b> — the Nordic recovery ritual; saunas at Sandsletta (D5), Lofoten Beach Camp (D8) and Reine (D9).</li>\n          <li><b>Fish straight off the boat</b> — buy the day's cod or halibut dockside at Henningsvær or Ballstad.</li>\n          <li><b>One full-album drive</b> — the Day-10 run off the islands is made for no-skip listening.</li>\n        </ul>\n      </div>\n\n      <div class=\"row r2 mt\">\n        <div class=\"card\"><h3>Free fish for the BBQ</h3>\n          <p>Saltwater fishing is <b>free and licence-free</b> — shore, pier, rocks or boat. Your hand-line is all you need. August's easy targets:</p>\n          <ul>\n            <li><b>Mackerel</b> (makrell) — inshore Jul–Sep, off any pier; best on the grill.</li>\n            <li><b>Coalfish</b> (sei) — everywhere off rocks &amp; harbour walls.</li>\n            <li><b>Pollock</b> (lyr) — kelp edges near dusk; white, flaky.</li>\n            <li><b>Cod</b> (torsk) — jig deeper water near bridge currents.</li>\n          </ul>\n        </div>\n        <div class=\"card cool\"><h3 style=\"color:var(--glacier)\">The rules &amp; best stops</h3>\n          <ul>\n            <li>Handheld tackle only; stay <b>100 m+</b> from fish farms.</li>\n            <li>Mind minimum sizes; eat it there (no selling, no big export).</li>\n            <li>Rivers/lakes need a <em>fiskekort</em> — stick to the sea.</li>\n          </ul>\n          <div class=\"subh\">Best shore stops</div>\n          <p style=\"font-size:13px\">Husøy &amp; Gryllefjord (Senja) · Andenes breakwater &amp; Bleik · Svolvær/Kabelvåg harbours · Sundklakk bridge · Henningsvær &amp; Ballstad piers · Fredvang bridges · Uttakleiv/Eggum · Reine·Hamnøy·Å roadside deep water.</p>\n        </div>\n      </div>",
   "budgetLead": "Estimates for 2026 (≈ €1 = 11.2 NOK). Tick what you'll do and switch the view — figures and the chart update live. Camper, flights and the Tromsø stay are already paid.",
   "budgetTableNote": "\"Per day\" averages across 11 days; \"per person\" splits every line in two. The Tromsø stay is the real figure (€227); flights are still an estimate.",
-  "activitiesLead": "Add-ons that fit the days you're already on — book the first three ahead, decide the rest on the day."
+  "activitiesLead": "Add-ons that fit the days you're already on — book the first three ahead, decide the rest on the day.",
+  "deepLead": "Everything for one day in one place — the drive, the bed, the climb, the food and the beer. Pick a day."
 }
